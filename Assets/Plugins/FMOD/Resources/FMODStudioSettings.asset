@@ -393,8 +393,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../../EiTFMOD/EiTFMOD_project/EiTFMOD_project.fspro
-  sourceBankPath: ..\..\EiTFMOD\EiTFMOD_project\Build
+  sourceProjectPath: FMOD/EiT_Build/EiT_Build.fspro
+  sourceBankPath: FMOD\EiT_Build\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
