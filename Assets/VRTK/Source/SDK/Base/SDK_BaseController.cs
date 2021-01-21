@@ -149,11 +149,7 @@ namespace VRTK
             /// <summary>
             /// The start menu button.
             /// </summary>
-            StartMenu,
-            /// <summary>
-            /// The touch pad/stick two.
-            /// </summary>
-            TouchpadTwo
+            StartMenu
         }
 
         /// <summary>

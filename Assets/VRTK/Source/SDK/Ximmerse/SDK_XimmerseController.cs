@@ -125,7 +125,7 @@ namespace VRTK
                 case ControllerElements.Body:
                     return path + "/object_1";
             }
-            return "";
+            return null;
         }
 
         /// <summary>
@@ -213,7 +213,7 @@ namespace VRTK
             GameObject controller = GetSDKManagerControllerLeftHand(actual);
             if (controller == null && actual)
             {
-                controller = VRTK_SharedMethods.FindEvenInactiveGameObject<VRContext>("TrackingSpace/LeftHandAnchor", true);
+                controller = VRTK_SharedMethods.FindEvenInactiveGameObject<VRContext>("TrackingSpace/LeftHandAnchor");
             }
             return controller;
         }
@@ -228,7 +228,7 @@ namespace VRTK
             GameObject controller = GetSDKManagerControllerRightHand(actual);
             if (controller == null && actual)
             {
-                controller = VRTK_SharedMethods.FindEvenInactiveGameObject<VRContext>("TrackingSpace/RightHandAnchor", true);
+                controller = VRTK_SharedMethods.FindEvenInactiveGameObject<VRContext>("TrackingSpace/RightHandAnchor");
             }
             return controller;
         }

@@ -115,7 +115,7 @@ namespace VRTK
             {
                 ToggleGameObject();
             }
-            else if (VRTK_SharedMethods.IsTypeSubclassOf(target.GetType(), typeof(Component)))
+            else if (target.GetType().IsSubclassOf(typeof(Component)))
             {
                 ToggleComponent();
             }

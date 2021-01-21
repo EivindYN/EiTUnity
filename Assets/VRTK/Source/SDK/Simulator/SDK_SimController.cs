@@ -99,7 +99,7 @@ namespace VRTK
                 case ControllerElements.Body:
                     return "";
             }
-            return "";
+            return null;
         }
 
         /// <summary>

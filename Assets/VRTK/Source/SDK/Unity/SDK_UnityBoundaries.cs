@@ -30,7 +30,7 @@ namespace VRTK
             cachedPlayArea = GetSDKManagerPlayArea();
             if (cachedPlayArea == null)
             {
-                GameObject foundCameraRig = VRTK_SharedMethods.FindEvenInactiveGameObject<SDK_UnityCameraRig>(null, true);
+                GameObject foundCameraRig = VRTK_SharedMethods.FindEvenInactiveGameObject<SDK_UnityCameraRig>();
                 if (foundCameraRig != null)
                 {
                     cachedPlayArea = foundCameraRig.transform;

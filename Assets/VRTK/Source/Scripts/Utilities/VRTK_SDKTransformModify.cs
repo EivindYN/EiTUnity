@@ -12,9 +12,9 @@ namespace VRTK
         [Header("SDK settings")]
 
         [Tooltip("An optional SDK Setup to use to determine when to modify the transform.")]
-        public VRTK_SDKSetup loadedSDKSetup = null;
+        public VRTK_SDKSetup loadedSDKSetup;
         [Tooltip("An optional SDK controller type to use to determine when to modify the transform.")]
-        public SDK_BaseController.ControllerType controllerType = SDK_BaseController.ControllerType.Undefined;
+        public SDK_BaseController.ControllerType controllerType;
 
         [Header("Transform Override Settings")]
 

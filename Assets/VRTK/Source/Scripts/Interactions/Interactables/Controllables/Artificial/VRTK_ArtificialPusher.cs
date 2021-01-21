@@ -68,14 +68,6 @@ namespace VRTK.Controllables.ArtificialBased
         }
 
         /// <summary>
-        /// The SetValue method is not implemented as the pusher resets automatically.
-        /// </summary>
-        /// <param name="value">Not used.</param>
-        public override void SetValue(float value)
-        {
-        }
-
-        /// <summary>
         /// The IsResting method returns whether the pusher is currently at it's resting position.
         /// </summary>
         /// <returns>Returns `true` if the pusher is currently at the resting position.</returns>
@@ -176,7 +168,7 @@ namespace VRTK.Controllables.ArtificialBased
 
         protected override void OnTouched(Collider collider)
         {
-            if ((!VRTK_PlayerObject.IsPlayerObject(collider.gameObject) || VRTK_PlayerObject.IsPlayerObject(collider.gameObject, VRTK_PlayerObject.ObjectTypes.Controller)) && collider.GetComponent<VRTK_InteractNearTouchCollider>() == false)
+            if (!VRTK_PlayerObject.IsPlayerObject(collider.gameObject) || VRTK_PlayerObject.IsPlayerObject(collider.gameObject, VRTK_PlayerObject.ObjectTypes.Controller))
             {
                 base.OnTouched(collider);
 

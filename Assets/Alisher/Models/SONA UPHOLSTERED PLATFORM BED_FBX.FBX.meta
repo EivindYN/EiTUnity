@@ -1,8 +1,215 @@
 fileFormatVersion: 2
 guid: 9e0af01b154b75448b675041f29bba0c
 ModelImporter:
-  serializedVersion: 19301
-  internalIDToNameTable: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: ACADEMY TASK SWING-ARM SCONCE ANTIQUE PEWTER_1
+    100002: ACADEMY TASK SWING-ARM SCONCE ANTIQUE PEWTER_2
+    100004: Box001
+    100006: Box006
+    100008: Box007
+    100010: Box008
+    100012: Box009
+    100014: decor_1
+    100016: decor_2
+    100018: default225
+    100020: Fspot015
+    100022: Fspot016
+    100024: Group56379
+    100026: Line011
+    100028: Line012
+    100030: Line013
+    100032: Line014
+    100034: Line015
+    100036: Line016
+    100038: Line017
+    100040: MELO RUG
+    100042: Object003
+    100044: Object013
+    100046: Object014
+    100048: Object018
+    100050: Object034
+    100052: Object039
+    100054: Object040
+    100056: Object041
+    100058: Object042
+    100060: Object043
+    100062: Object047
+    100064: Object049
+    100066: Object050
+    100068: Object051
+    100070: Object052
+    100072: Object053
+    100074: Object054
+    100076: Object055
+    100078: Pattern2D_342972
+    100080: Pattern2D_4659
+    100082: POLYHEDRON SIDE TABLE_1
+    100084: POLYHEDRON SIDE TABLE_2
+    100086: SONA UPHOLSTERED PLATFORM BED
+    100088: //RootNode
+    100090: VINTAGE SPORTS GEAR PHOTOGRAPHY
+    400000: ACADEMY TASK SWING-ARM SCONCE ANTIQUE PEWTER_1
+    400002: ACADEMY TASK SWING-ARM SCONCE ANTIQUE PEWTER_2
+    400004: Box001
+    400006: Box006
+    400008: Box007
+    400010: Box008
+    400012: Box009
+    400014: decor_1
+    400016: decor_2
+    400018: default225
+    400020: Fspot015
+    400022: Fspot016
+    400024: Group56379
+    400026: Line011
+    400028: Line012
+    400030: Line013
+    400032: Line014
+    400034: Line015
+    400036: Line016
+    400038: Line017
+    400040: MELO RUG
+    400042: Object003
+    400044: Object013
+    400046: Object014
+    400048: Object018
+    400050: Object034
+    400052: Object039
+    400054: Object040
+    400056: Object041
+    400058: Object042
+    400060: Object043
+    400062: Object047
+    400064: Object049
+    400066: Object050
+    400068: Object051
+    400070: Object052
+    400072: Object053
+    400074: Object054
+    400076: Object055
+    400078: Pattern2D_342972
+    400080: Pattern2D_4659
+    400082: POLYHEDRON SIDE TABLE_1
+    400084: POLYHEDRON SIDE TABLE_2
+    400086: SONA UPHOLSTERED PLATFORM BED
+    400088: //RootNode
+    400090: VINTAGE SPORTS GEAR PHOTOGRAPHY
+    2100000: 'Material #2142148070'
+    2300000: Box001
+    2300002: Box006
+    2300004: Box007
+    2300006: Box008
+    2300008: Box009
+    2300010: default225
+    2300012: Line011
+    2300014: Line012
+    2300016: Line013
+    2300018: Line014
+    2300020: Line015
+    2300022: Line016
+    2300024: Line017
+    2300026: MELO RUG
+    2300028: Object003
+    2300030: Object013
+    2300032: Object014
+    2300034: Object018
+    2300036: Object034
+    2300038: Object039
+    2300040: Object040
+    2300042: Object041
+    2300044: Object042
+    2300046: Object043
+    2300048: Object047
+    2300050: Object049
+    2300052: Object050
+    2300054: Object051
+    2300056: Object052
+    2300058: Object053
+    2300060: Object054
+    2300062: Object055
+    2300064: Pattern2D_342972
+    2300066: Pattern2D_4659
+    2300068: POLYHEDRON SIDE TABLE_1
+    2300070: POLYHEDRON SIDE TABLE_2
+    2300072: VINTAGE SPORTS GEAR PHOTOGRAPHY
+    3300000: Box001
+    3300002: Box006
+    3300004: Box007
+    3300006: Box008
+    3300008: Box009
+    3300010: default225
+    3300012: Line011
+    3300014: Line012
+    3300016: Line013
+    3300018: Line014
+    3300020: Line015
+    3300022: Line016
+    3300024: Line017
+    3300026: MELO RUG
+    3300028: Object003
+    3300030: Object013
+    3300032: Object014
+    3300034: Object018
+    3300036: Object034
+    3300038: Object039
+    3300040: Object040
+    3300042: Object041
+    3300044: Object042
+    3300046: Object043
+    3300048: Object047
+    3300050: Object049
+    3300052: Object050
+    3300054: Object051
+    3300056: Object052
+    3300058: Object053
+    3300060: Object054
+    3300062: Object055
+    3300064: Pattern2D_342972
+    3300066: Pattern2D_4659
+    3300068: POLYHEDRON SIDE TABLE_1
+    3300070: POLYHEDRON SIDE TABLE_2
+    3300072: VINTAGE SPORTS GEAR PHOTOGRAPHY
+    4300000: Pattern2D_342972
+    4300002: Object040
+    4300004: Object018
+    4300006: Pattern2D_4659
+    4300008: Object034
+    4300010: Object014
+    4300012: Object039
+    4300014: Object041
+    4300016: Object013
+    4300018: Box001
+    4300020: Object003
+    4300022: POLYHEDRON SIDE TABLE_2
+    4300024: Line013
+    4300026: Line012
+    4300028: Object047
+    4300030: Object050
+    4300032: Object049
+    4300034: Box006
+    4300036: Object051
+    4300038: Line014
+    4300040: POLYHEDRON SIDE TABLE_1
+    4300042: default225
+    4300044: Object042
+    4300046: Object043
+    4300048: Line011
+    4300050: VINTAGE SPORTS GEAR PHOTOGRAPHY
+    4300052: MELO RUG
+    4300054: Object052
+    4300056: Object053
+    4300058: Object054
+    4300060: Box007
+    4300062: Object055
+    4300064: Line017
+    4300066: Line015
+    4300068: Line016
+    4300070: Box009
+    4300072: Box008
+    9500000: //RootNode
+    10800000: Fspot015
+    10800002: Fspot016
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -67,7 +274,7 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material #2142148070
+      name: Material
     second: {fileID: 2100000, guid: afeb6620b91d8434987e653bbe5ed671, type: 2}
   - first:
       type: UnityEngine:Material
@@ -165,7 +372,7 @@ ModelImporter:
       name: whater
     second: {fileID: 2100000, guid: a4f38222c5f7ba345b3ba8c7076f2008, type: 2}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -197,41 +404,34 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -241,16 +441,14 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

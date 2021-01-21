@@ -82,7 +82,6 @@ namespace VRTK.Controllables.ArtificialBased
         protected bool stillResting;
         protected float previousValue;
         protected float previousAngleTarget;
-        protected Transform savedParent;
 
         /// <summary>
         /// The GetValue method returns the current rotation value of the rotator.
@@ -100,15 +99,6 @@ namespace VRTK.Controllables.ArtificialBased
         public override float GetNormalizedValue()
         {
             return VRTK_SharedMethods.NormalizeValue(GetValue(), angleLimits.minimum, angleLimits.maximum);
-        }
-
-        /// <summary>
-        /// The SetValue method sets the current Angle of the rotator
-        /// </summary>
-        /// <param name="value">The new rotation value</param>
-        public override void SetValue(float value)
-        {
-            SetAngleTarget(value);
         }
 
         /// <summary>
@@ -137,7 +127,8 @@ namespace VRTK.Controllables.ArtificialBased
         /// <param name="givenStepValue">The step value within the `Step Value Range` to set the `Angle Target` parameter to.</param>
         public virtual void SetAngleTargetWithStepValue(float givenStepValue)
         {
-            angleTarget = SetAngleWithNormalizedValue(VRTK_SharedMethods.NormalizeValue(givenStepValue, stepValueRange.minimum, stepValueRange.maximum));
+            angleTarget = VRTK_SharedMethods.NormalizeValue(givenStepValue, stepValueRange.minimum, stepValueRange.maximum);
+            SetAngleWithNormalizedValue(angleTarget);
             previousAngleTarget = angleTarget;
         }
 
@@ -171,7 +162,7 @@ namespace VRTK.Controllables.ArtificialBased
             {
                 newAngle = Mathf.Clamp(newAngle, angleLimits.minimum, angleLimits.maximum);
                 angleTarget = newAngle;
-                SetRotation(angleTarget, 0f);
+                controlGrabAttach.SetRotation(angleTarget);
             }
         }
 
@@ -211,9 +202,6 @@ namespace VRTK.Controllables.ArtificialBased
 
         protected override void OnEnable()
         {
-            SetValue(storedValue);
-
-            ResetParentContainer();
             base.OnEnable();
             rotatorContainer = gameObject;
             rotationReset = false;
@@ -311,17 +299,9 @@ namespace VRTK.Controllables.ArtificialBased
 
         protected virtual void RemoveParentContainer()
         {
-            if (rotatorContainer != null)
+            if (rotatorContainer != null && gameObject.activeInHierarchy)
             {
-                savedParent = rotatorContainer.transform.parent;
-            }
-        }
-
-        protected virtual void ResetParentContainer()
-        {
-            if (savedParent != null)
-            {
-                transform.SetParent(savedParent);
+                transform.SetParent(rotatorContainer.transform.parent);
                 Destroy(rotatorContainer);
             }
         }
@@ -440,15 +420,13 @@ namespace VRTK.Controllables.ArtificialBased
             }
         }
 
-        protected virtual float SetAngleWithNormalizedValue(float normalizedTargetAngle)
+        protected virtual void SetAngleWithNormalizedValue(float normalizedTargetAngle)
         {
             if (controlGrabAttach != null)
             {
                 float positionOnAxis = Mathf.Lerp(controlGrabAttach.angleLimits.minimum, controlGrabAttach.angleLimits.maximum, Mathf.Clamp01(normalizedTargetAngle));
                 SetRotation(positionOnAxis, releasedFriction * 0.1f);
-                return positionOnAxis;
             }
-            return 0f;
         }
 
         protected virtual void ForceRestingPosition()

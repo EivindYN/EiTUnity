@@ -38,16 +38,12 @@ namespace VRTK
         protected List<string> validRightHands = new List<string>()
         {
             "OpenVR Controller - Right",
-            "OpenVR Controller(Vive. Controller MV) - Right",
-            "OpenVR Controller(VIVE Controller Pro MV) - Right",
             "Oculus Touch - Right",
             "Oculus Remote"
         };
         protected List<string> validLeftHands = new List<string>()
         {
             "OpenVR Controller - Left",
-            "OpenVR Controller(Vive. Controller MV) - Left",
-            "OpenVR Controller(VIVE Controller Pro MV) - Left",
             "Oculus Touch - Left"
         };
 
@@ -73,23 +69,22 @@ namespace VRTK
         */
 
         protected int[] rightControllerTouchCodes = new int[] { 15, 17, 10, 11 };
-        protected int[] rightControllerPressCodes = new int[] { 9, 1, 0, 7 };
-        protected int[] rightOculusRemotePressCodes = new int[] { 9, 0, 1, 7 };
+        protected int[] rightControllerPressCodes = new int[] { 9, 0, 1, 7 };
 
         protected int[] leftControllerTouchCodes = new int[] { 14, 16, 12, 13 };
-        protected int[] leftControllerPressCodes = new int[] { 8, 3, 2, 7 };
+        protected int[] leftControllerPressCodes = new int[] { 8, 2, 3, 7 };
 
         protected ControllerType cachedControllerType = ControllerType.Custom;
 
         protected Dictionary<ButtonTypes, KeyCode?> rightControllerTouchKeyCodes = new Dictionary<ButtonTypes, KeyCode?>()
         {
-            { ButtonTypes.Trigger, KeyCode.JoystickButton15 },
+            { ButtonTypes.Trigger, KeyCode.Joystick1Button15 },
             { ButtonTypes.TriggerHairline, null },
             { ButtonTypes.Grip, null },
             { ButtonTypes.GripHairline, null },
-            { ButtonTypes.Touchpad, KeyCode.JoystickButton17 },
-            { ButtonTypes.ButtonOne, KeyCode.JoystickButton10 },
-            { ButtonTypes.ButtonTwo, KeyCode.JoystickButton11 },
+            { ButtonTypes.Touchpad, KeyCode.Joystick1Button17 },
+            { ButtonTypes.ButtonOne, KeyCode.Joystick1Button10 },
+            { ButtonTypes.ButtonTwo, KeyCode.Joystick1Button11 },
             { ButtonTypes.StartMenu, null }
         };
 
@@ -99,21 +94,21 @@ namespace VRTK
             { ButtonTypes.TriggerHairline, null },
             { ButtonTypes.Grip, null },
             { ButtonTypes.GripHairline, null },
-            { ButtonTypes.Touchpad, KeyCode.JoystickButton9 },
-            { ButtonTypes.ButtonOne, KeyCode.JoystickButton1 },
-            { ButtonTypes.ButtonTwo, KeyCode.JoystickButton0 },
-            { ButtonTypes.StartMenu, KeyCode.JoystickButton7 }
+            { ButtonTypes.Touchpad, KeyCode.Joystick1Button9 },
+            { ButtonTypes.ButtonOne, KeyCode.Joystick1Button0 },
+            { ButtonTypes.ButtonTwo, KeyCode.Joystick1Button1 },
+            { ButtonTypes.StartMenu, KeyCode.Joystick1Button7 }
         };
 
         protected Dictionary<ButtonTypes, KeyCode?> leftControllerTouchKeyCodes = new Dictionary<ButtonTypes, KeyCode?>()
         {
-            { ButtonTypes.Trigger, KeyCode.JoystickButton14 },
+            { ButtonTypes.Trigger, KeyCode.Joystick1Button14 },
             { ButtonTypes.TriggerHairline, null },
             { ButtonTypes.Grip, null },
             { ButtonTypes.GripHairline, null },
-            { ButtonTypes.Touchpad, KeyCode.JoystickButton16 },
-            { ButtonTypes.ButtonOne, KeyCode.JoystickButton12 },
-            { ButtonTypes.ButtonTwo, KeyCode.JoystickButton13 },
+            { ButtonTypes.Touchpad, KeyCode.Joystick1Button16 },
+            { ButtonTypes.ButtonOne, KeyCode.Joystick1Button12 },
+            { ButtonTypes.ButtonTwo, KeyCode.Joystick1Button13 },
             { ButtonTypes.StartMenu, null }
         };
 
@@ -123,13 +118,11 @@ namespace VRTK
             { ButtonTypes.TriggerHairline, null },
             { ButtonTypes.Grip, null },
             { ButtonTypes.GripHairline, null },
-            { ButtonTypes.Touchpad, KeyCode.JoystickButton8 },
-            { ButtonTypes.ButtonOne, KeyCode.JoystickButton3 },
-            { ButtonTypes.ButtonTwo, KeyCode.JoystickButton2 },
-            { ButtonTypes.StartMenu, KeyCode.JoystickButton7 }
+            { ButtonTypes.Touchpad, KeyCode.Joystick1Button8 },
+            { ButtonTypes.ButtonOne, KeyCode.Joystick1Button2 },
+            { ButtonTypes.ButtonTwo, KeyCode.Joystick1Button3 },
+            { ButtonTypes.StartMenu, KeyCode.Joystick1Button7 }
         };
-
-        private bool settingCaches = false;
 
         /// <summary>
         /// The ProcessUpdate method enables an SDK to run logic for every Unity Update
@@ -254,7 +247,7 @@ namespace VRTK
             GameObject controller = GetSDKManagerControllerLeftHand(actual);
             if (controller == null && actual)
             {
-                controller = VRTK_SharedMethods.FindEvenInactiveGameObject<SDK_UnityCameraRig>("LeftHandAnchor", true);
+                controller = VRTK_SharedMethods.FindEvenInactiveGameObject<SDK_UnityCameraRig>("LeftHandAnchor");
             }
             return controller;
         }
@@ -269,7 +262,7 @@ namespace VRTK
             GameObject controller = GetSDKManagerControllerRightHand(actual);
             if (controller == null && actual)
             {
-                controller = VRTK_SharedMethods.FindEvenInactiveGameObject<SDK_UnityCameraRig>("RightHandAnchor", true);
+                controller = VRTK_SharedMethods.FindEvenInactiveGameObject<SDK_UnityCameraRig>("RightHandAnchor");
             }
             return controller;
         }
@@ -671,13 +664,6 @@ namespace VRTK
 
         protected virtual void SetTrackedControllerCaches(bool forceRefresh = false)
         {
-            if (settingCaches)
-            {
-                return;
-            }
-
-            settingCaches = true;
-
             if (forceRefresh)
             {
                 cachedLeftController = null;
@@ -695,8 +681,8 @@ namespace VRTK
                     {
                         cachedLeftTracker = cachedLeftController.GetComponent<SDK_UnityControllerTracker>();
                         cachedLeftVelocityEstimator = cachedLeftController.GetComponent<VRTK_VelocityEstimator>();
-                        SetControllerButtons(ControllerHand.Left);
                     }
+                    SetControllerButtons(ControllerHand.Left);
                 }
                 if (cachedRightController == null && sdkManager.loadedSetup.actualRightController != null)
                 {
@@ -706,12 +692,10 @@ namespace VRTK
                     {
                         cachedRightTracker = cachedRightController.GetComponent<SDK_UnityControllerTracker>();
                         cachedRightVelocityEstimator = cachedRightController.GetComponent<VRTK_VelocityEstimator>();
-                        SetControllerButtons(ControllerHand.Right);
                     }
+                    SetControllerButtons(ControllerHand.Right);
                 }
             }
-
-            settingCaches = false;
         }
 
         protected virtual void SetControllerButtons(ControllerHand hand)
@@ -748,8 +732,7 @@ namespace VRTK
             {
                 if (hand == ControllerHand.Right)
                 {
-                    var pressCodes = cachedControllerType == ControllerType.Oculus_OculusRemote ? rightOculusRemotePressCodes : rightControllerPressCodes;
-                    SetControllerButtonValues(ref rightControllerTouchKeyCodes, ref rightControllerPressKeyCodes, validJoystickIndex, rightControllerTouchCodes, pressCodes);
+                    SetControllerButtonValues(ref rightControllerTouchKeyCodes, ref rightControllerPressKeyCodes, validJoystickIndex, rightControllerTouchCodes, rightControllerPressCodes);
                 }
                 else
                 {
@@ -770,9 +753,6 @@ namespace VRTK
             {
                 case "googledaydream":
                     cachedControllerType = ControllerType.Daydream_Controller;
-                    return;
-                case "oculus remote":
-                    cachedControllerType = ControllerType.Oculus_OculusRemote;
                     return;
             }
 

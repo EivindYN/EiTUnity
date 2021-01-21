@@ -337,7 +337,7 @@ namespace VRTK
                 ReadOnlyCollection<VRTK_SDKInfo> installedSDKInfos = installedSDKInfosList[index];
                 VRTK_SDKInfo currentSDKInfo = currentSDKInfos[index];
 
-                Type baseType = VRTK_SharedMethods.GetBaseType(currentSDKInfo.type);
+                Type baseType = currentSDKInfo.type.BaseType;
                 if (baseType == null)
                 {
                     continue;
@@ -423,11 +423,7 @@ namespace VRTK
         static VRTK_SDKSetup()
         {
             //call AutoPopulateObjectReferences when the currently active scene changes
-#if UNITY_2018_1_OR_NEWER
-            EditorApplication.hierarchyChanged += AutoPopulateObjectReferences;
-#else
             EditorApplication.hierarchyWindowChanged += AutoPopulateObjectReferences;
-#endif
         }
 
         [DidReloadScripts(2)]
@@ -438,7 +434,7 @@ namespace VRTK
                 return;
             }
 
-            foreach (VRTK_SDKSetup setup in VRTK_SharedMethods.FindEvenInactiveComponents<VRTK_SDKSetup>(true))
+            foreach (VRTK_SDKSetup setup in VRTK_SharedMethods.FindEvenInactiveComponents<VRTK_SDKSetup>())
             {
                 setup.PopulateObjectReferences(false);
             }
@@ -491,13 +487,13 @@ namespace VRTK
                 return string.Format("The fallback {0} SDK is being used because there is no other {0} SDK set in the SDK Setup.", prettyName);
             }
 
-            if (!VRTK_SharedMethods.IsTypeAssignableFrom(baseType, selectedType) || VRTK_SharedMethods.IsTypeAssignableFrom(fallbackType, selectedType))
+            if (!baseType.IsAssignableFrom(selectedType) || fallbackType.IsAssignableFrom(selectedType))
             {
                 string description = string.Format("The fallback {0} SDK is being used despite being set to '{1}'.", prettyName, selectedType.Name);
 
                 if (installedInfos.Select(installedInfo => installedInfo.type).Contains(selectedType))
                 {
-                    return description + " Its needed scripting define symbols are not added. You can click the GameObject with the `VRTK_SDKManager` script attached to it in Edit Mode and choose to automatically let the manager handle the scripting define symbols." + VRTK_Logger.GetCommonMessage(VRTK_Logger.CommonMessageKeys.SCRIPTING_DEFINE_SYMBOLS_NOT_FOUND);
+                    return description + " Its needed scripting define symbols are not added. You can click the GameObject with the `VRTK_SDKManager` script attached to it in Edit Mode and choose to automatically let the manager handle the scripting define symbols.";
                 }
 
                 return description + " The needed vendor SDK isn't installed.";

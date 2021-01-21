@@ -435,10 +435,7 @@ namespace VRTK
             footColliderContainerNameCheck = VRTK_SharedMethods.GenerateVRTKObjectName(true, FOOT_COLLIDER_CONTAINER_NAME);
             enableBodyCollisionsStartingValue = enableBodyCollisions;
             EnableDropToFloor();
-            if (playArea != null)
-            {
-                EnableBodyPhysics();
-            }
+            EnableBodyPhysics();
             SetupIgnoredCollisions();
         }
 
@@ -963,10 +960,9 @@ namespace VRTK
                 Vector3 colliderWorldCenter = playArea.TransformPoint(footCollider.center);
                 Vector3 castStart = new Vector3(colliderWorldCenter.x, colliderWorldCenter.y + (CalculateStepUpYOffset() * stepYIncrement), colliderWorldCenter.z);
                 Vector3 castExtents = new Vector3(bodyCollider.radius, boxCastHeight, bodyCollider.radius);
-                float castDistance = castStart.y - playArea.position.y;
                 RaycastHit floorCheckHit;
-                bool floorHit = VRTK_CustomRaycast.BoxCast(customRaycast, castStart, castExtents, Vector3.down, Quaternion.identity, castDistance, out floorCheckHit, defaultIgnoreLayer, QueryTriggerInteraction.Ignore);
-                if (floorHit && (floorCheckHit.point.y - playArea.position.y) > stepDropThreshold)
+                float castDistance = castStart.y - playArea.position.y;
+                if (Physics.BoxCast(castStart, castExtents, Vector3.down, out floorCheckHit, Quaternion.identity, castDistance) && (floorCheckHit.point.y - playArea.position.y) > stepDropThreshold)
                 {
                     //If there is a teleporter attached then use that to move
                     if (teleporter != null && enableTeleport)
@@ -1126,13 +1122,11 @@ namespace VRTK
             if (generateRigidbody && bodyRigidbody != null)
             {
                 Destroy(bodyRigidbody);
-                bodyRigidbody = null;
             }
 
             if (bodyColliderContainer != null)
             {
                 Destroy(bodyColliderContainer);
-                bodyColliderContainer = null;
             }
         }
 
@@ -1349,6 +1343,7 @@ namespace VRTK
                     storedCurrentPhysics = storedRetogglePhysics;
                     retogglePhysicsOnCanFall = false;
                 }
+
                 if (enableBodyCollisions && (teleporter == null || !enableTeleport || hitFloorYDelta > gravityFallYThreshold))
                 {
                     GravityFall(rayCollidedWith);

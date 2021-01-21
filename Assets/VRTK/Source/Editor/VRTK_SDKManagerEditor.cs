@@ -6,6 +6,7 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Reflection;
 
     [CustomEditor(typeof(VRTK_SDKManager))]
     public class VRTK_SDKManagerEditor : Editor
@@ -379,7 +380,7 @@
                     SerializedProperty serializedProperty = setupsList.serializedProperty;
                     serializedProperty.ClearArray();
                     VRTK_SDKSetup[] setups = sdkManager.GetComponentsInChildren<VRTK_SDKSetup>(true)
-                                                       .Concat(VRTK_SharedMethods.FindEvenInactiveComponents<VRTK_SDKSetup>(true))
+                                                       .Concat(VRTK_SharedMethods.FindEvenInactiveComponents<VRTK_SDKSetup>())
                                                        .Distinct()
                                                        .ToArray();
 

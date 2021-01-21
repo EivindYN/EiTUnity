@@ -153,9 +153,7 @@ namespace VRTK
         /// </summary>
         public virtual void ResetPointerObjects()
         {
-            DestroyPointerOriginTransformFollow();
             DestroyPointerObjects();
-            CreatePointerOriginTransformFollow();
             CreatePointerObjects();
         }
 
@@ -297,7 +295,7 @@ namespace VRTK
                 Destroy(objectInteractor);
             }
             controllerGrabScript = null;
-            DestroyPointerOriginTransformFollow();
+            Destroy(pointerOriginTransformFollowGameObject);
         }
 
         protected virtual void OnDestroy()
@@ -318,10 +316,7 @@ namespace VRTK
                 UpdateObjectInteractor();
             }
 
-            if (pointerOriginTransformFollow != null)
-            {
-                UpdatePointerOriginTransformFollow();
-            }
+            UpdatePointerOriginTransformFollow();
         }
 
         protected virtual void ToggleObjectInteraction(bool state)
@@ -341,12 +336,8 @@ namespace VRTK
                     {
                         controllerGrabScript.ForceRelease(true);
                     }
-
-                    if (savedAttachPoint != null)
-                    {
-                        controllerGrabScript.controllerAttachPoint = savedAttachPoint;
-                        savedAttachPoint = null;
-                    }
+                    controllerGrabScript.controllerAttachPoint = savedAttachPoint;
+                    savedAttachPoint = null;
                     attachedToInteractorAttachPoint = false;
                     savedBeamLength = 0f;
                 }
@@ -594,11 +585,7 @@ namespace VRTK
                 Rigidbody objectInteratorRigidBody = objectInteractorAttachPoint.AddComponent<Rigidbody>();
                 objectInteratorRigidBody.isKinematic = true;
                 objectInteratorRigidBody.freezeRotation = true;
-#if UNITY_2018_3_OR_NEWER
-                objectInteratorRigidBody.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
-#else
                 objectInteratorRigidBody.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
-#endif
                 VRTK_PlayerObject.SetPlayerObject(objectInteractorAttachPoint, VRTK_PlayerObject.ObjectTypes.Pointer);
             }
 
@@ -621,16 +608,6 @@ namespace VRTK
             pointerOriginTransformFollow.enabled = false;
             pointerOriginTransformFollow.moment = VRTK_TransformFollow.FollowMoment.OnFixedUpdate;
             pointerOriginTransformFollow.followsScale = false;
-        }
-
-        protected virtual void DestroyPointerOriginTransformFollow()
-        {
-            if (pointerOriginTransformFollowGameObject != null)
-            {
-                Destroy(pointerOriginTransformFollowGameObject);
-                pointerOriginTransformFollowGameObject = null;
-                pointerOriginTransformFollow = null;
-            }
         }
 
         protected virtual float OverrideBeamLength(float currentLength)

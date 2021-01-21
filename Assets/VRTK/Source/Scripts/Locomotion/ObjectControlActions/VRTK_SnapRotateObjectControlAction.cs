@@ -41,8 +41,6 @@ namespace VRTK
 
         protected override void Process(GameObject controlledGameObject, Transform directionDevice, Vector3 axisDirection, float axis, float deadzone, bool currentlyFalling, bool modifierActive)
         {
-            CheckForPlayerBeforeRotation(controlledGameObject);
-
             if (snapDelayTimer < Time.time && ValidThreshold(axis))
             {
                 float angle = Rotate(axis, modifierActive);
@@ -52,8 +50,6 @@ namespace VRTK
                     RotateAroundPlayer(controlledGameObject, angle);
                 }
             }
-
-            CheckForPlayerAfterRotation(controlledGameObject);
         }
 
         protected virtual bool ValidThreshold(float axis)

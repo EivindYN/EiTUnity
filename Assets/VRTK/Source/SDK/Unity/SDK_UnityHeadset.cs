@@ -42,7 +42,7 @@ namespace VRTK
             cachedHeadset = GetSDKManagerHeadset();
             if (cachedHeadset == null)
             {
-                GameObject foundHeadset = VRTK_SharedMethods.FindEvenInactiveGameObject<SDK_UnityHeadsetTracker>(null, true);
+                GameObject foundHeadset = VRTK_SharedMethods.FindEvenInactiveGameObject<SDK_UnityHeadsetTracker>();
                 if (foundHeadset != null)
                 {
                     cachedHeadset = foundHeadset.transform;

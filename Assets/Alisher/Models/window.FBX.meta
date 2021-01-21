@@ -1,14 +1,124 @@
 fileFormatVersion: 2
 guid: f15601fcb47c9f7488bce470bca470fb
 ModelImporter:
-  serializedVersion: 19301
-  internalIDToNameTable:
-  - first:
-      74: 1827226128182048838
-    second: Take 001
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: books
+    100002: books01
+    100004: books02
+    100006: books03
+    100008: books04
+    100010: books05
+    100012: books06
+    100014: books07
+    100016: books08
+    100018: books09
+    100020: books10
+    100022: books11
+    100024: frame
+    100026: glass
+    100028: Particle View 01
+    100030: sofa
+    100032: wall
+    100034: wall_frame
+    100036: //RootNode
+    100038: window
+    100040: window_frame
+    400000: books
+    400002: books01
+    400004: books02
+    400006: books03
+    400008: books04
+    400010: books05
+    400012: books06
+    400014: books07
+    400016: books08
+    400018: books09
+    400020: books10
+    400022: books11
+    400024: frame
+    400026: glass
+    400028: Particle View 01
+    400030: sofa
+    400032: wall
+    400034: wall_frame
+    400036: //RootNode
+    400038: window
+    400040: window_frame
+    2100000: Red
+    2100002: Blue
+    2100004: Yellow
+    2100006: White
+    2100008: knigi
+    2100010: knigi01
+    2100012: knigi02
+    2100014: knigi03
+    2100016: knigi04
+    2100018: GLASS__Architectural__Window (Interior_Exterior)
+    2100020: rama
+    2100022: Patina
+    2300000: books
+    2300002: books01
+    2300004: books02
+    2300006: books03
+    2300008: books04
+    2300010: books05
+    2300012: books06
+    2300014: books07
+    2300016: books08
+    2300018: books09
+    2300020: books10
+    2300022: books11
+    2300024: frame
+    2300026: glass
+    2300028: sofa
+    2300030: wall
+    2300032: wall_frame
+    2300034: window
+    2300036: window_frame
+    3300000: books
+    3300002: books01
+    3300004: books02
+    3300006: books03
+    3300008: books04
+    3300010: books05
+    3300012: books06
+    3300014: books07
+    3300016: books08
+    3300018: books09
+    3300020: books10
+    3300022: books11
+    3300024: frame
+    3300026: glass
+    3300028: sofa
+    3300030: wall
+    3300032: wall_frame
+    3300034: window
+    3300036: window_frame
+    4300000: sofa
+    4300002: books
+    4300004: books01
+    4300006: books02
+    4300008: books03
+    4300010: books04
+    4300012: books05
+    4300014: books11
+    4300016: books10
+    4300018: books09
+    4300020: books08
+    4300022: books07
+    4300024: books06
+    4300026: glass
+    4300028: window
+    4300030: window_frame
+    4300032: wall_frame
+    4300034: wall
+    4300036: frame
+    7400000: Take 001
+    9500000: //RootNode
   externalObjects: {}
   materials:
-    materialImportMode: 1
+    importMaterials: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -40,41 +150,34 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
-    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
-    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
+    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    skinWeightsMode: 0
-    maxBonesPerVertex: 4
-    minBoneWeight: 0.001
-    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
-  referencedClips: []
   importAnimation: 1
+  copyAvatar: 0
   humanDescription:
-    serializedVersion: 3
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -84,16 +187,14 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 1
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -72,15 +72,16 @@ namespace VRTK
 
         protected virtual void OnEnable()
         {
+            movementTransform = VRTK_DeviceFinder.HeadsetTransform();
+            if (movementTransform == null)
+            {
+                VRTK_Logger.Warn(VRTK_Logger.GetCommonMessage(VRTK_Logger.CommonMessageKeys.REQUIRED_COMPONENT_MISSING_FROM_SCENE, "VRTK_RoomExtender", "Headset Transform"));
+            }
             activationEnabled = false;
             buttonSubscribed = false;
-            movementTransform = VRTK_DeviceFinder.HeadsetTransform();
             playArea = VRTK_DeviceFinder.PlayAreaTransform();
             MoveHeadCircleNonLinearDrift();
-            if (movementTransform != null)
-            {
-                lastPosition = movementTransform.localPosition;
-            }
+            lastPosition = movementTransform.localPosition;
         }
 
         protected virtual void OnDestroy()
@@ -138,7 +139,7 @@ namespace VRTK
         protected virtual void Move(Vector3 movement)
         {
             headCirclePosition += movement;
-            if (playArea != null && (activationEnabled || activationButton == VRTK_ControllerEvents.ButtonAlias.Undefined))
+            if (activationEnabled || activationButton == VRTK_ControllerEvents.ButtonAlias.Undefined)
             {
                 playArea.localPosition += movement * additionalMovementMultiplier;
                 relativeMovementOfCameraRig += movement * additionalMovementMultiplier;
@@ -147,45 +148,36 @@ namespace VRTK
 
         protected virtual void MoveHeadCircle()
         {
-            if (movementTransform != null)
+            //Get the movement of the head relative to the headCircle.
+            Vector3 circleCenterToHead = new Vector3(movementTransform.localPosition.x - headCirclePosition.x, 0, movementTransform.localPosition.z - headCirclePosition.z);
+
+            //Get the direction of the head movement.
+            UpdateLastMovement();
+
+            //Checks if the head is outside of the head cirlce and moves the head circle and play area in the movementDirection.
+            if (circleCenterToHead.sqrMagnitude > headZoneRadius * headZoneRadius && lastMovement != Vector3.zero)
             {
-                //Get the movement of the head relative to the headCircle.
-                Vector3 circleCenterToHead = new Vector3(movementTransform.localPosition.x - headCirclePosition.x, 0, movementTransform.localPosition.z - headCirclePosition.z);
-
-                //Get the direction of the head movement.
-                UpdateLastMovement();
-
-                //Checks if the head is outside of the head cirlce and moves the head circle and play area in the movementDirection.
-                if (circleCenterToHead.sqrMagnitude > headZoneRadius * headZoneRadius && lastMovement != Vector3.zero)
-                {
-                    //Just move like the headset moved
-                    Move(lastMovement);
-                }
+                //Just move like the headset moved
+                Move(lastMovement);
             }
         }
 
         protected virtual void MoveHeadCircleNonLinearDrift()
         {
-            if (movementTransform != null)
+            Vector3 movement = new Vector3(movementTransform.localPosition.x - headCirclePosition.x, 0, movementTransform.localPosition.z - headCirclePosition.z);
+            if (movement.sqrMagnitude > headZoneRadius * headZoneRadius)
             {
-                Vector3 movement = new Vector3(movementTransform.localPosition.x - headCirclePosition.x, 0, movementTransform.localPosition.z - headCirclePosition.z);
-                if (movement.sqrMagnitude > headZoneRadius * headZoneRadius)
-                {
-                    Vector3 deltaMovement = movement.normalized * (movement.magnitude - headZoneRadius);
-                    Move(deltaMovement);
-                }
+                Vector3 deltaMovement = movement.normalized * (movement.magnitude - headZoneRadius);
+                Move(deltaMovement);
             }
         }
 
         protected virtual void UpdateLastMovement()
         {
-            if (movementTransform != null)
-            {
-                //Save the last movement
-                lastMovement = movementTransform.localPosition - lastPosition;
-                lastMovement.y = 0;
-                lastPosition = movementTransform.localPosition;
-            }
+            //Save the last movement
+            lastMovement = movementTransform.localPosition - lastPosition;
+            lastMovement.y = 0;
+            lastPosition = movementTransform.localPosition;
         }
     }
 }

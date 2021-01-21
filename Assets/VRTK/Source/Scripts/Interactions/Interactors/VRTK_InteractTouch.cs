@@ -268,7 +268,6 @@ namespace VRTK
             {
                 trackedController.ControllerModelAvailable += DoControllerModelAvailable;
             }
-            CreateTouchCollider();
         }
 
         protected virtual void OnDisable()
@@ -486,12 +485,7 @@ namespace VRTK
         protected virtual void CreateTouchCollider()
         {
             SDK_BaseController.ControllerHand controllerHand = VRTK_DeviceFinder.GetControllerHand(gameObject);
-            string colliderPath = VRTK_SDK_Bridge.GetControllerDefaultColliderPath(controllerHand);
-            if (colliderPath == "")
-            {
-                return;
-            }
-            Object defaultColliderPrefab = Resources.Load(colliderPath);
+            Object defaultColliderPrefab = Resources.Load(VRTK_SDK_Bridge.GetControllerDefaultColliderPath(controllerHand));
 
             if (customColliderContainer == null)
             {
@@ -499,10 +493,6 @@ namespace VRTK
                 {
                     VRTK_Logger.Error(VRTK_Logger.GetCommonMessage(VRTK_Logger.CommonMessageKeys.SDK_OBJECT_NOT_FOUND, "default collider prefab", "Controller SDK"));
                     return;
-                }
-                if (destroyColliderOnDisable)
-                {
-                    Destroy(controllerCollisionDetector);
                 }
                 controllerCollisionDetector = Instantiate(defaultColliderPrefab, transform.position, transform.rotation) as GameObject;
                 controllerCollisionDetector.transform.SetParent(transform);
@@ -534,11 +524,7 @@ namespace VRTK
             touchRigidBody.isKinematic = true;
             touchRigidBody.useGravity = false;
             touchRigidBody.constraints = RigidbodyConstraints.FreezeAll;
-#if UNITY_2018_3_OR_NEWER
-            touchRigidBody.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
-#else
             touchRigidBody.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
-#endif
         }
 
         protected virtual void EmitControllerRigidbodyEvent(bool state)
