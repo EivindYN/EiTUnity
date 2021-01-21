@@ -1,121 +1,26 @@
 fileFormatVersion: 2
 guid: 057ac5586cb636247931a2f799b2773e
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Cylinder001
-    100004: Cylinder002
-    100006: Cylinder004
-    100008: Cylinder005
-    100010: Cylinder006
-    100012: Cylinder007
-    100014: Cylinder018
-    100016: default
-    100018: default001
-    100020: default004
-    100022: Group001
-    100024: Group002
-    100026: Group42657
-    100028: Group42658
-    100030: Group42666
-    100032: Group42667
-    100034: Group42668
-    100036: Group42669
-    100038: Group42670
-    100040: Group42671
-    100042: Object001
-    100044: Sphere034
-    100046: Torus094
-    100048: Torus095
-    100050: Torus096
-    400000: //RootNode
-    400002: Cylinder001
-    400004: Cylinder002
-    400006: Cylinder004
-    400008: Cylinder005
-    400010: Cylinder006
-    400012: Cylinder007
-    400014: Cylinder018
-    400016: default
-    400018: default001
-    400020: default004
-    400022: Group001
-    400024: Group002
-    400026: Group42657
-    400028: Group42658
-    400030: Group42666
-    400032: Group42667
-    400034: Group42668
-    400036: Group42669
-    400038: Group42670
-    400040: Group42671
-    400042: Object001
-    400044: Sphere034
-    400046: Torus094
-    400048: Torus095
-    400050: Torus096
-    2100000: 'Material #756ssdas'
-    2100002: 'Material #51'
-    2300000: Cylinder001
-    2300002: Cylinder002
-    2300004: Cylinder004
-    2300006: Cylinder005
-    2300008: Cylinder006
-    2300010: Cylinder007
-    2300012: Cylinder018
-    2300014: default
-    2300016: default001
-    2300018: default004
-    2300020: Object001
-    2300022: Sphere034
-    2300024: Torus094
-    2300026: Torus095
-    2300028: Torus096
-    3300000: Cylinder001
-    3300002: Cylinder002
-    3300004: Cylinder004
-    3300006: Cylinder005
-    3300008: Cylinder006
-    3300010: Cylinder007
-    3300012: Cylinder018
-    3300014: default
-    3300016: default001
-    3300018: default004
-    3300020: Object001
-    3300022: Sphere034
-    3300024: Torus094
-    3300026: Torus095
-    3300028: Torus096
-    4300000: Cylinder002
-    4300002: Cylinder007
-    4300004: Cylinder001
-    4300006: Cylinder006
-    4300008: Cylinder005
-    4300010: Cylinder004
-    4300012: Torus094
-    4300014: Sphere034
-    4300016: Torus095
-    4300018: Torus096
-    4300020: Cylinder018
-    4300022: Object001
-    4300024: default
-    4300026: default001
-    4300028: default004
-    9500000: //RootNode
+  serializedVersion: 19301
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
+      name: Material #51
     second: {fileID: 2100000, guid: 784b7bff0851cc2478167c582c1343a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #756ssdas
+    second: {fileID: 2100000, guid: 1cd941a1b39279c4d9c88df98f4dc2b1, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: curtain7_metal
     second: {fileID: 2100000, guid: 71f7be47f98d9a449b77ffdd26829bfb, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -147,34 +52,41 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.001
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -184,14 +96,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

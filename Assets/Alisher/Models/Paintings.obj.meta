@@ -1,81 +1,8 @@
 fileFormatVersion: 2
 guid: 1123a9353d5d1604fb84df7e720288ab
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Box008
-    100002: Box009
-    100004: Box010
-    100006: Box011
-    100008: Box0111
-    100010: Box013
-    100012: Box014
-    100014: Box015
-    100016: Box017
-    100018: Box018
-    100020: Box112
-    100022: Box113
-    100024: Box114
-    100026: box13
-    100028: //RootNode
-    400000: Box008
-    400002: Box009
-    400004: Box010
-    400006: Box011
-    400008: Box0111
-    400010: Box013
-    400012: Box014
-    400014: Box015
-    400016: Box017
-    400018: Box018
-    400020: Box112
-    400022: Box113
-    400024: Box114
-    400026: box13
-    400028: //RootNode
-    2300000: Box008
-    2300002: Box009
-    2300004: Box010
-    2300006: Box011
-    2300008: Box0111
-    2300010: Box013
-    2300012: Box014
-    2300014: Box015
-    2300016: Box017
-    2300018: Box018
-    2300020: Box112
-    2300022: Box113
-    2300024: Box114
-    2300026: box13
-    3300000: Box008
-    3300002: Box009
-    3300004: Box010
-    3300006: Box011
-    3300008: Box0111
-    3300010: Box013
-    3300012: Box014
-    3300014: Box015
-    3300016: Box017
-    3300018: Box018
-    3300020: Box112
-    3300022: Box113
-    3300024: Box114
-    3300026: box13
-    4300000: Box008
-    4300002: Box009
-    4300004: Box010
-    4300006: Box011
-    4300008: Box0111
-    4300010: Box013
-    4300012: Box014
-    4300014: Box015
-    4300016: Box017
-    4300018: Box018
-    4300020: Box112
-    4300022: Box113
-    4300024: Box114
-    4300026: box13
-    9500000: //RootNode
+  serializedVersion: 19301
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -148,7 +75,7 @@ ModelImporter:
       name: box13Mat
     second: {fileID: 2100000, guid: 713e3e6e5f6bcfa489578121037d8a30, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -180,34 +107,41 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -217,14 +151,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

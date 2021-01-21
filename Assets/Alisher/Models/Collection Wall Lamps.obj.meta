@@ -1,341 +1,8 @@
 fileFormatVersion: 2
 guid: 7a1fa0b8b7e4c944bacc1ae225786098
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Capsule005
-    100002: Capsule006
-    100004: Capsule007
-    100006: Capsule008
-    100008: Circle002
-    100010: //RootNode
-    100012: Cylinder002
-    100014: Cylinder475
-    100016: Cylinder476
-    100018: Cylinder477
-    100020: Cylinder478
-    100022: Cylinder479
-    100024: Cylinder480
-    100026: Cylinder481
-    100028: Cylinder482
-    100030: Cylinder483
-    100032: Cylinder484
-    100034: Cylinder485
-    100036: Cylinder486
-    100038: Cylinder487
-    100040: Cylinder488
-    100042: Cylinder489
-    100044: Cylinder490
-    100046: Cylinder491
-    100048: Cylinder492
-    100050: Cylinder493
-    100052: Cylinder494
-    100054: Cylinder495
-    100056: Cylinder496
-    100058: Cylinder497
-    100060: Cylinder498
-    100062: Cylinder499
-    100064: Cylinder500
-    100066: Cylinder501
-    100068: Cylinder502
-    100070: Cylinder503
-    100072: Cylinder504
-    100074: Cylinder505
-    100076: Cylinder506
-    100078: Cylinder507
-    100080: Cylinder508
-    100082: Cylinder509
-    100084: Cylinder510
-    100086: Line008
-    100088: Line009
-    100090: Line010
-    100092: Line011
-    100094: Line012
-    100096: Line013
-    100098: Line014
-    100100: Line015
-    100102: Line016
-    100104: Line017
-    100106: Line018
-    100108: Line019
-    100110: Line067
-    100112: Line068
-    100114: Line069
-    100116: Line070
-    100118: Object028
-    100120: Object029
-    100122: Object080
-    100124: Object081
-    100126: Object082
-    100128: Star005
-    100130: Star006
-    100132: Star007
-    400000: Capsule005
-    400002: Capsule006
-    400004: Capsule007
-    400006: Capsule008
-    400008: Circle002
-    400010: //RootNode
-    400012: Cylinder002
-    400014: Cylinder475
-    400016: Cylinder476
-    400018: Cylinder477
-    400020: Cylinder478
-    400022: Cylinder479
-    400024: Cylinder480
-    400026: Cylinder481
-    400028: Cylinder482
-    400030: Cylinder483
-    400032: Cylinder484
-    400034: Cylinder485
-    400036: Cylinder486
-    400038: Cylinder487
-    400040: Cylinder488
-    400042: Cylinder489
-    400044: Cylinder490
-    400046: Cylinder491
-    400048: Cylinder492
-    400050: Cylinder493
-    400052: Cylinder494
-    400054: Cylinder495
-    400056: Cylinder496
-    400058: Cylinder497
-    400060: Cylinder498
-    400062: Cylinder499
-    400064: Cylinder500
-    400066: Cylinder501
-    400068: Cylinder502
-    400070: Cylinder503
-    400072: Cylinder504
-    400074: Cylinder505
-    400076: Cylinder506
-    400078: Cylinder507
-    400080: Cylinder508
-    400082: Cylinder509
-    400084: Cylinder510
-    400086: Line008
-    400088: Line009
-    400090: Line010
-    400092: Line011
-    400094: Line012
-    400096: Line013
-    400098: Line014
-    400100: Line015
-    400102: Line016
-    400104: Line017
-    400106: Line018
-    400108: Line019
-    400110: Line067
-    400112: Line068
-    400114: Line069
-    400116: Line070
-    400118: Object028
-    400120: Object029
-    400122: Object080
-    400124: Object081
-    400126: Object082
-    400128: Star005
-    400130: Star006
-    400132: Star007
-    2300000: Capsule005
-    2300002: Capsule006
-    2300004: Capsule007
-    2300006: Capsule008
-    2300008: Circle002
-    2300010: Cylinder002
-    2300012: Cylinder475
-    2300014: Cylinder476
-    2300016: Cylinder477
-    2300018: Cylinder478
-    2300020: Cylinder479
-    2300022: Cylinder480
-    2300024: Cylinder481
-    2300026: Cylinder482
-    2300028: Cylinder483
-    2300030: Cylinder484
-    2300032: Cylinder485
-    2300034: Cylinder486
-    2300036: Cylinder487
-    2300038: Cylinder488
-    2300040: Cylinder489
-    2300042: Cylinder490
-    2300044: Cylinder491
-    2300046: Cylinder492
-    2300048: Cylinder493
-    2300050: Cylinder494
-    2300052: Cylinder495
-    2300054: Cylinder496
-    2300056: Cylinder497
-    2300058: Cylinder498
-    2300060: Cylinder499
-    2300062: Cylinder500
-    2300064: Cylinder501
-    2300066: Cylinder502
-    2300068: Cylinder503
-    2300070: Cylinder504
-    2300072: Cylinder505
-    2300074: Cylinder506
-    2300076: Cylinder507
-    2300078: Cylinder508
-    2300080: Cylinder509
-    2300082: Cylinder510
-    2300084: Line008
-    2300086: Line009
-    2300088: Line010
-    2300090: Line011
-    2300092: Line012
-    2300094: Line013
-    2300096: Line014
-    2300098: Line015
-    2300100: Line016
-    2300102: Line017
-    2300104: Line018
-    2300106: Line019
-    2300108: Line067
-    2300110: Line068
-    2300112: Line069
-    2300114: Line070
-    2300116: Object028
-    2300118: Object029
-    2300120: Object080
-    2300122: Object081
-    2300124: Object082
-    2300126: Star005
-    2300128: Star006
-    2300130: Star007
-    3300000: Capsule005
-    3300002: Capsule006
-    3300004: Capsule007
-    3300006: Capsule008
-    3300008: Circle002
-    3300010: Cylinder002
-    3300012: Cylinder475
-    3300014: Cylinder476
-    3300016: Cylinder477
-    3300018: Cylinder478
-    3300020: Cylinder479
-    3300022: Cylinder480
-    3300024: Cylinder481
-    3300026: Cylinder482
-    3300028: Cylinder483
-    3300030: Cylinder484
-    3300032: Cylinder485
-    3300034: Cylinder486
-    3300036: Cylinder487
-    3300038: Cylinder488
-    3300040: Cylinder489
-    3300042: Cylinder490
-    3300044: Cylinder491
-    3300046: Cylinder492
-    3300048: Cylinder493
-    3300050: Cylinder494
-    3300052: Cylinder495
-    3300054: Cylinder496
-    3300056: Cylinder497
-    3300058: Cylinder498
-    3300060: Cylinder499
-    3300062: Cylinder500
-    3300064: Cylinder501
-    3300066: Cylinder502
-    3300068: Cylinder503
-    3300070: Cylinder504
-    3300072: Cylinder505
-    3300074: Cylinder506
-    3300076: Cylinder507
-    3300078: Cylinder508
-    3300080: Cylinder509
-    3300082: Cylinder510
-    3300084: Line008
-    3300086: Line009
-    3300088: Line010
-    3300090: Line011
-    3300092: Line012
-    3300094: Line013
-    3300096: Line014
-    3300098: Line015
-    3300100: Line016
-    3300102: Line017
-    3300104: Line018
-    3300106: Line019
-    3300108: Line067
-    3300110: Line068
-    3300112: Line069
-    3300114: Line070
-    3300116: Object028
-    3300118: Object029
-    3300120: Object080
-    3300122: Object081
-    3300124: Object082
-    3300126: Star005
-    3300128: Star006
-    3300130: Star007
-    4300000: Capsule005
-    4300002: Capsule006
-    4300004: Capsule007
-    4300006: Capsule008
-    4300008: Circle002
-    4300010: Cylinder002
-    4300012: Cylinder475
-    4300014: Cylinder476
-    4300016: Cylinder477
-    4300018: Cylinder478
-    4300020: Cylinder479
-    4300022: Cylinder480
-    4300024: Cylinder481
-    4300026: Cylinder482
-    4300028: Cylinder483
-    4300030: Cylinder484
-    4300032: Cylinder485
-    4300034: Cylinder486
-    4300036: Cylinder487
-    4300038: Cylinder488
-    4300040: Cylinder489
-    4300042: Cylinder490
-    4300044: Cylinder491
-    4300046: Cylinder492
-    4300048: Cylinder493
-    4300050: Cylinder494
-    4300052: Cylinder495
-    4300054: Cylinder496
-    4300056: Cylinder497
-    4300058: Cylinder498
-    4300060: Cylinder499
-    4300062: Cylinder500
-    4300064: Cylinder501
-    4300066: Cylinder502
-    4300068: Cylinder503
-    4300070: Cylinder504
-    4300072: Cylinder505
-    4300074: Cylinder506
-    4300076: Cylinder507
-    4300078: Cylinder508
-    4300080: Cylinder509
-    4300082: Cylinder510
-    4300084: Line008
-    4300086: Line009
-    4300088: Line010
-    4300090: Line011
-    4300092: Line012
-    4300094: Line013
-    4300096: Line014
-    4300098: Line015
-    4300100: Line016
-    4300102: Line017
-    4300104: Line018
-    4300106: Line019
-    4300108: Line067
-    4300110: Line068
-    4300112: Line069
-    4300114: Line070
-    4300116: Object028
-    4300118: Object029
-    4300120: Object080
-    4300122: Object081
-    4300124: Object082
-    4300126: Star005
-    4300128: Star006
-    4300130: Star007
-    9500000: //RootNode
+  serializedVersion: 19301
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -668,7 +335,7 @@ ModelImporter:
       name: Star007Mat
     second: {fileID: 2100000, guid: 99e7e79ead7eb614aa02dedf19493ebc, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -700,34 +367,41 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -737,14 +411,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

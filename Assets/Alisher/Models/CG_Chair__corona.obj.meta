@@ -1,421 +1,8 @@
 fileFormatVersion: 2
 guid: 32a32cffa7c21e94cb1c146741cf4d87
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: CG_Chair_001
-    100002: CG_Chair_003
-    100004: CG_Chair_006
-    100006: CG_Chair_007
-    100008: CG_Chair_010
-    100010: CG_Chair_011
-    100012: CG_Chair_013
-    100014: CG_Chair_014
-    100016: CG_Chair_015
-    100018: CG_Chair_017
-    100020: CG_Chair_018
-    100022: CG_Chair_019
-    100024: CG_Chair_020
-    100026: CG_Chair_021
-    100028: CG_Chair_022
-    100030: CG_Chair_023
-    100032: CG_Chair_024
-    100034: CG_Chair_025
-    100036: CG_Chair_026
-    100038: CG_Chair_027
-    100040: CG_Chair_029
-    100042: CG_Chair_030
-    100044: CG_Chair_031
-    100046: CG_Chair_033
-    100048: CG_Chair_034
-    100050: CG_Chair_035
-    100052: CG_Chair_036
-    100054: CG_Chair_037
-    100056: CG_Chair_038
-    100058: CG_Chair_039
-    100060: CG_Chair_040
-    100062: CG_Chair_041
-    100064: CG_Chair_042
-    100066: CG_Chair_043
-    100068: CG_Chair_045
-    100070: CG_Chair_046
-    100072: CG_Chair_047
-    100074: CG_Chair_049
-    100076: CG_Chair_050
-    100078: CG_Chair_051
-    100080: CG_Chair_052
-    100082: CG_Chair_053
-    100084: CG_Chair_054
-    100086: CG_Chair_055
-    100088: CG_Chair_056
-    100090: CG_Chair_057
-    100092: CG_Chair_058
-    100094: CG_Chair_059
-    100096: CG_Chair_061
-    100098: CG_Chair_062
-    100100: CG_Chair_063
-    100102: CG_Chair_065
-    100104: CG_Chair_066
-    100106: CG_Chair_067
-    100108: CG_Chair_068
-    100110: CG_Chair_069
-    100112: CG_Chair_070
-    100114: CG_Chair_071
-    100116: CG_Chair_072
-    100118: CG_Chair_073
-    100120: CG_Chair_074
-    100122: CG_Chair_075
-    100124: CG_Chair_077
-    100126: CG_Chair_078
-    100128: CG_Chair_079
-    100130: CG_Chair_081
-    100132: CG_Chair_082
-    100134: CG_Chair_083
-    100136: CG_Chair_084
-    100138: CG_Chair_085
-    100140: CG_Chair_086
-    100142: CG_Chair_087
-    100144: CG_Chair_088
-    100146: CG_Chair_089
-    100148: CG_Chair_090
-    100150: CG_Chair_091
-    100152: CG_Chair_093
-    100154: CG_Chair_094
-    100156: CG_Chair_097
-    100158: CG_Chair_098
-    100160: CG_Chair_100
-    100162: CG_Chair_101
-    100164: //RootNode
-    400000: CG_Chair_001
-    400002: CG_Chair_003
-    400004: CG_Chair_006
-    400006: CG_Chair_007
-    400008: CG_Chair_010
-    400010: CG_Chair_011
-    400012: CG_Chair_013
-    400014: CG_Chair_014
-    400016: CG_Chair_015
-    400018: CG_Chair_017
-    400020: CG_Chair_018
-    400022: CG_Chair_019
-    400024: CG_Chair_020
-    400026: CG_Chair_021
-    400028: CG_Chair_022
-    400030: CG_Chair_023
-    400032: CG_Chair_024
-    400034: CG_Chair_025
-    400036: CG_Chair_026
-    400038: CG_Chair_027
-    400040: CG_Chair_029
-    400042: CG_Chair_030
-    400044: CG_Chair_031
-    400046: CG_Chair_033
-    400048: CG_Chair_034
-    400050: CG_Chair_035
-    400052: CG_Chair_036
-    400054: CG_Chair_037
-    400056: CG_Chair_038
-    400058: CG_Chair_039
-    400060: CG_Chair_040
-    400062: CG_Chair_041
-    400064: CG_Chair_042
-    400066: CG_Chair_043
-    400068: CG_Chair_045
-    400070: CG_Chair_046
-    400072: CG_Chair_047
-    400074: CG_Chair_049
-    400076: CG_Chair_050
-    400078: CG_Chair_051
-    400080: CG_Chair_052
-    400082: CG_Chair_053
-    400084: CG_Chair_054
-    400086: CG_Chair_055
-    400088: CG_Chair_056
-    400090: CG_Chair_057
-    400092: CG_Chair_058
-    400094: CG_Chair_059
-    400096: CG_Chair_061
-    400098: CG_Chair_062
-    400100: CG_Chair_063
-    400102: CG_Chair_065
-    400104: CG_Chair_066
-    400106: CG_Chair_067
-    400108: CG_Chair_068
-    400110: CG_Chair_069
-    400112: CG_Chair_070
-    400114: CG_Chair_071
-    400116: CG_Chair_072
-    400118: CG_Chair_073
-    400120: CG_Chair_074
-    400122: CG_Chair_075
-    400124: CG_Chair_077
-    400126: CG_Chair_078
-    400128: CG_Chair_079
-    400130: CG_Chair_081
-    400132: CG_Chair_082
-    400134: CG_Chair_083
-    400136: CG_Chair_084
-    400138: CG_Chair_085
-    400140: CG_Chair_086
-    400142: CG_Chair_087
-    400144: CG_Chair_088
-    400146: CG_Chair_089
-    400148: CG_Chair_090
-    400150: CG_Chair_091
-    400152: CG_Chair_093
-    400154: CG_Chair_094
-    400156: CG_Chair_097
-    400158: CG_Chair_098
-    400160: CG_Chair_100
-    400162: CG_Chair_101
-    400164: //RootNode
-    2300000: CG_Chair_001
-    2300002: CG_Chair_003
-    2300004: CG_Chair_006
-    2300006: CG_Chair_007
-    2300008: CG_Chair_010
-    2300010: CG_Chair_011
-    2300012: CG_Chair_013
-    2300014: CG_Chair_014
-    2300016: CG_Chair_015
-    2300018: CG_Chair_017
-    2300020: CG_Chair_018
-    2300022: CG_Chair_019
-    2300024: CG_Chair_020
-    2300026: CG_Chair_021
-    2300028: CG_Chair_022
-    2300030: CG_Chair_023
-    2300032: CG_Chair_024
-    2300034: CG_Chair_025
-    2300036: CG_Chair_026
-    2300038: CG_Chair_027
-    2300040: CG_Chair_029
-    2300042: CG_Chair_030
-    2300044: CG_Chair_031
-    2300046: CG_Chair_033
-    2300048: CG_Chair_034
-    2300050: CG_Chair_035
-    2300052: CG_Chair_036
-    2300054: CG_Chair_037
-    2300056: CG_Chair_038
-    2300058: CG_Chair_039
-    2300060: CG_Chair_040
-    2300062: CG_Chair_041
-    2300064: CG_Chair_042
-    2300066: CG_Chair_043
-    2300068: CG_Chair_045
-    2300070: CG_Chair_046
-    2300072: CG_Chair_047
-    2300074: CG_Chair_049
-    2300076: CG_Chair_050
-    2300078: CG_Chair_051
-    2300080: CG_Chair_052
-    2300082: CG_Chair_053
-    2300084: CG_Chair_054
-    2300086: CG_Chair_055
-    2300088: CG_Chair_056
-    2300090: CG_Chair_057
-    2300092: CG_Chair_058
-    2300094: CG_Chair_059
-    2300096: CG_Chair_061
-    2300098: CG_Chair_062
-    2300100: CG_Chair_063
-    2300102: CG_Chair_065
-    2300104: CG_Chair_066
-    2300106: CG_Chair_067
-    2300108: CG_Chair_068
-    2300110: CG_Chair_069
-    2300112: CG_Chair_070
-    2300114: CG_Chair_071
-    2300116: CG_Chair_072
-    2300118: CG_Chair_073
-    2300120: CG_Chair_074
-    2300122: CG_Chair_075
-    2300124: CG_Chair_077
-    2300126: CG_Chair_078
-    2300128: CG_Chair_079
-    2300130: CG_Chair_081
-    2300132: CG_Chair_082
-    2300134: CG_Chair_083
-    2300136: CG_Chair_084
-    2300138: CG_Chair_085
-    2300140: CG_Chair_086
-    2300142: CG_Chair_087
-    2300144: CG_Chair_088
-    2300146: CG_Chair_089
-    2300148: CG_Chair_090
-    2300150: CG_Chair_091
-    2300152: CG_Chair_093
-    2300154: CG_Chair_094
-    2300156: CG_Chair_097
-    2300158: CG_Chair_098
-    2300160: CG_Chair_100
-    2300162: CG_Chair_101
-    3300000: CG_Chair_001
-    3300002: CG_Chair_003
-    3300004: CG_Chair_006
-    3300006: CG_Chair_007
-    3300008: CG_Chair_010
-    3300010: CG_Chair_011
-    3300012: CG_Chair_013
-    3300014: CG_Chair_014
-    3300016: CG_Chair_015
-    3300018: CG_Chair_017
-    3300020: CG_Chair_018
-    3300022: CG_Chair_019
-    3300024: CG_Chair_020
-    3300026: CG_Chair_021
-    3300028: CG_Chair_022
-    3300030: CG_Chair_023
-    3300032: CG_Chair_024
-    3300034: CG_Chair_025
-    3300036: CG_Chair_026
-    3300038: CG_Chair_027
-    3300040: CG_Chair_029
-    3300042: CG_Chair_030
-    3300044: CG_Chair_031
-    3300046: CG_Chair_033
-    3300048: CG_Chair_034
-    3300050: CG_Chair_035
-    3300052: CG_Chair_036
-    3300054: CG_Chair_037
-    3300056: CG_Chair_038
-    3300058: CG_Chair_039
-    3300060: CG_Chair_040
-    3300062: CG_Chair_041
-    3300064: CG_Chair_042
-    3300066: CG_Chair_043
-    3300068: CG_Chair_045
-    3300070: CG_Chair_046
-    3300072: CG_Chair_047
-    3300074: CG_Chair_049
-    3300076: CG_Chair_050
-    3300078: CG_Chair_051
-    3300080: CG_Chair_052
-    3300082: CG_Chair_053
-    3300084: CG_Chair_054
-    3300086: CG_Chair_055
-    3300088: CG_Chair_056
-    3300090: CG_Chair_057
-    3300092: CG_Chair_058
-    3300094: CG_Chair_059
-    3300096: CG_Chair_061
-    3300098: CG_Chair_062
-    3300100: CG_Chair_063
-    3300102: CG_Chair_065
-    3300104: CG_Chair_066
-    3300106: CG_Chair_067
-    3300108: CG_Chair_068
-    3300110: CG_Chair_069
-    3300112: CG_Chair_070
-    3300114: CG_Chair_071
-    3300116: CG_Chair_072
-    3300118: CG_Chair_073
-    3300120: CG_Chair_074
-    3300122: CG_Chair_075
-    3300124: CG_Chair_077
-    3300126: CG_Chair_078
-    3300128: CG_Chair_079
-    3300130: CG_Chair_081
-    3300132: CG_Chair_082
-    3300134: CG_Chair_083
-    3300136: CG_Chair_084
-    3300138: CG_Chair_085
-    3300140: CG_Chair_086
-    3300142: CG_Chair_087
-    3300144: CG_Chair_088
-    3300146: CG_Chair_089
-    3300148: CG_Chair_090
-    3300150: CG_Chair_091
-    3300152: CG_Chair_093
-    3300154: CG_Chair_094
-    3300156: CG_Chair_097
-    3300158: CG_Chair_098
-    3300160: CG_Chair_100
-    3300162: CG_Chair_101
-    4300000: CG_Chair_001
-    4300002: CG_Chair_003
-    4300004: CG_Chair_006
-    4300006: CG_Chair_007
-    4300008: CG_Chair_010
-    4300010: CG_Chair_011
-    4300012: CG_Chair_013
-    4300014: CG_Chair_014
-    4300016: CG_Chair_015
-    4300018: CG_Chair_017
-    4300020: CG_Chair_018
-    4300022: CG_Chair_019
-    4300024: CG_Chair_020
-    4300026: CG_Chair_021
-    4300028: CG_Chair_022
-    4300030: CG_Chair_023
-    4300032: CG_Chair_024
-    4300034: CG_Chair_025
-    4300036: CG_Chair_026
-    4300038: CG_Chair_027
-    4300040: CG_Chair_029
-    4300042: CG_Chair_030
-    4300044: CG_Chair_031
-    4300046: CG_Chair_033
-    4300048: CG_Chair_034
-    4300050: CG_Chair_035
-    4300052: CG_Chair_036
-    4300054: CG_Chair_037
-    4300056: CG_Chair_038
-    4300058: CG_Chair_039
-    4300060: CG_Chair_040
-    4300062: CG_Chair_041
-    4300064: CG_Chair_042
-    4300066: CG_Chair_043
-    4300068: CG_Chair_045
-    4300070: CG_Chair_046
-    4300072: CG_Chair_047
-    4300074: CG_Chair_049
-    4300076: CG_Chair_050
-    4300078: CG_Chair_051
-    4300080: CG_Chair_052
-    4300082: CG_Chair_053
-    4300084: CG_Chair_054
-    4300086: CG_Chair_055
-    4300088: CG_Chair_056
-    4300090: CG_Chair_057
-    4300092: CG_Chair_058
-    4300094: CG_Chair_059
-    4300096: CG_Chair_061
-    4300098: CG_Chair_062
-    4300100: CG_Chair_063
-    4300102: CG_Chair_065
-    4300104: CG_Chair_066
-    4300106: CG_Chair_067
-    4300108: CG_Chair_068
-    4300110: CG_Chair_069
-    4300112: CG_Chair_070
-    4300114: CG_Chair_071
-    4300116: CG_Chair_072
-    4300118: CG_Chair_073
-    4300120: CG_Chair_074
-    4300122: CG_Chair_075
-    4300124: CG_Chair_077
-    4300126: CG_Chair_078
-    4300128: CG_Chair_079
-    4300130: CG_Chair_081
-    4300132: CG_Chair_082
-    4300134: CG_Chair_083
-    4300136: CG_Chair_084
-    4300138: CG_Chair_085
-    4300140: CG_Chair_086
-    4300142: CG_Chair_087
-    4300144: CG_Chair_088
-    4300146: CG_Chair_089
-    4300148: CG_Chair_090
-    4300150: CG_Chair_091
-    4300152: CG_Chair_093
-    4300154: CG_Chair_094
-    4300156: CG_Chair_097
-    4300158: CG_Chair_098
-    4300160: CG_Chair_100
-    4300162: CG_Chair_101
-    9500000: //RootNode
+  serializedVersion: 19301
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -828,7 +415,7 @@ ModelImporter:
       name: CG_Chair_101Mat
     second: {fileID: 2100000, guid: 7f8e4d96ae142c8409cb74c585def080, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -860,34 +447,41 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 1
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -897,14 +491,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

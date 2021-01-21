@@ -1,132 +1,8 @@
 fileFormatVersion: 2
 guid: a4b513e5d2430414dbdaf6bc815e437c
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: banket
-    100002: book
-    100004: Box1
-    100006: Box2
-    100008: candle1
-    100010: candle2
-    100012: chokolad
-    100014: //RootNode
-    100016: frame
-    100018: lamp
-    100020: pillow new
-    100022: plate1w
-    100024: plate1w001
-    100026: plate1w002
-    100028: plate1w003
-    100030: pled
-    100032: pled book
-    100034: rose
-    100036: table
-    100038: top vetka
-    100040: vase 1
-    100042: vase 2
-    100044: vase cobalt_0
-    100046: vase cobalt_01
-    400000: banket
-    400002: book
-    400004: Box1
-    400006: Box2
-    400008: candle1
-    400010: candle2
-    400012: chokolad
-    400014: //RootNode
-    400016: frame
-    400018: lamp
-    400020: pillow new
-    400022: plate1w
-    400024: plate1w001
-    400026: plate1w002
-    400028: plate1w003
-    400030: pled
-    400032: pled book
-    400034: rose
-    400036: table
-    400038: top vetka
-    400040: vase 1
-    400042: vase 2
-    400044: vase cobalt_0
-    400046: vase cobalt_01
-    2100000: 'Material #617'
-    2100002: 'Material #588'
-    2100004: 'Material #650'
-    2100006: 'Material #519'
-    2100008: 'Material #586'
-    2100010: 'Material #633'
-    2300000: banket
-    2300002: book
-    2300004: Box1
-    2300006: Box2
-    2300008: candle1
-    2300010: candle2
-    2300012: chokolad
-    2300014: frame
-    2300016: lamp
-    2300018: pillow new
-    2300020: plate1w
-    2300022: plate1w001
-    2300024: plate1w002
-    2300026: plate1w003
-    2300028: pled
-    2300030: pled book
-    2300032: rose
-    2300034: table
-    2300036: top vetka
-    2300038: vase 1
-    2300040: vase 2
-    2300042: vase cobalt_0
-    2300044: vase cobalt_01
-    3300000: banket
-    3300002: book
-    3300004: Box1
-    3300006: Box2
-    3300008: candle1
-    3300010: candle2
-    3300012: chokolad
-    3300014: frame
-    3300016: lamp
-    3300018: pillow new
-    3300020: plate1w
-    3300022: plate1w001
-    3300024: plate1w002
-    3300026: plate1w003
-    3300028: pled
-    3300030: pled book
-    3300032: rose
-    3300034: table
-    3300036: top vetka
-    3300038: vase 1
-    3300040: vase 2
-    3300042: vase cobalt_0
-    3300044: vase cobalt_01
-    4300000: book
-    4300002: pled
-    4300004: pled book
-    4300006: pillow new
-    4300008: table
-    4300010: Box2
-    4300012: candle1
-    4300014: top vetka
-    4300016: vase cobalt_0
-    4300018: vase cobalt_01
-    4300020: frame
-    4300022: rose
-    4300024: vase 1
-    4300026: vase 2
-    4300028: Box1
-    4300030: candle2
-    4300032: lamp
-    4300034: plate1w001
-    4300036: plate1w002
-    4300038: plate1w003
-    4300040: chokolad
-    4300042: plate1w
-    4300044: banket
-    9500000: //RootNode
+  serializedVersion: 19301
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -136,8 +12,33 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Material
+      name: Material #519
     second: {fileID: 2100000, guid: eac9efb06ea936642afad74ecd03dbbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #586
+    second: {fileID: 2100000, guid: 243d4884ce4ab2747a1f80027c3ceec7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #588
+    second: {fileID: 2100000, guid: 502bcd62ae6f9b44b93cbef088af3de3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #617
+    second: {fileID: 2100000, guid: d3425077bb3e69d479431bc50289a516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #633
+    second: {fileID: 2100000, guid: 5d7c92b6ab81b6b4ea9d8027fd517e82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material #650
+    second: {fileID: 2100000, guid: fa37f9a3ee20c1745b6a3cded2cace01, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -264,7 +165,7 @@ ModelImporter:
       name: vetka
     second: {fileID: 2100000, guid: ec9fc9a3430f67f409b01833c1a05fb8, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -296,34 +197,41 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.001
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -333,14 +241,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

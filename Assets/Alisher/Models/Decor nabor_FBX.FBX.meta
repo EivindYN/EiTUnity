@@ -1,236 +1,8 @@
 fileFormatVersion: 2
 guid: 27948012c773fe5469bc2dcaa38c0b61
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Box020
-    100002: Box042
-    100004: Box043
-    100006: Box044
-    100008: Box045
-    100010: Box229
-    100012: Box258
-    100014: Box259
-    100016: Box260
-    100018: Box262
-    100020: Box291
-    100022: Box292
-    100024: Box316
-    100026: Box396
-    100028: Cylinder007
-    100030: Cylinder008
-    100032: Cylinder020
-    100034: Cylinder021
-    100036: Cylinder025
-    100038: Cylinder026
-    100040: Cylinder027
-    100042: Cylinder028
-    100044: Cylinder029
-    100046: decor 1
-    100048: decor 2
-    100050: //RootNode
-    100052: Mirror
-    100054: misk 1
-    100056: misk 2
-    100058: Plane001
-    100060: Plane002
-    100062: Rectangle001
-    100064: Rectangle006
-    100066: Rectangle010
-    100068: Rectangle012
-    100070: Rectangle039
-    100072: Rectangle040
-    100074: Rectangle042
-    100076: Rectangle044
-    100078: Rectangle045
-    100080: Rectangle046
-    100082: Rectangle047
-    100084: Rectangle050
-    100086: Rectangle051
-    100088: Sphere964
-    100090: Vasa with roses
-    400000: Box020
-    400002: Box042
-    400004: Box043
-    400006: Box044
-    400008: Box045
-    400010: Box229
-    400012: Box258
-    400014: Box259
-    400016: Box260
-    400018: Box262
-    400020: Box291
-    400022: Box292
-    400024: Box316
-    400026: Box396
-    400028: Cylinder007
-    400030: Cylinder008
-    400032: Cylinder020
-    400034: Cylinder021
-    400036: Cylinder025
-    400038: Cylinder026
-    400040: Cylinder027
-    400042: Cylinder028
-    400044: Cylinder029
-    400046: decor 1
-    400048: decor 2
-    400050: //RootNode
-    400052: Mirror
-    400054: misk 1
-    400056: misk 2
-    400058: Plane001
-    400060: Plane002
-    400062: Rectangle001
-    400064: Rectangle006
-    400066: Rectangle010
-    400068: Rectangle012
-    400070: Rectangle039
-    400072: Rectangle040
-    400074: Rectangle042
-    400076: Rectangle044
-    400078: Rectangle045
-    400080: Rectangle046
-    400082: Rectangle047
-    400084: Rectangle050
-    400086: Rectangle051
-    400088: Sphere964
-    400090: Vasa with roses
-    2300000: Box020
-    2300002: Box042
-    2300004: Box043
-    2300006: Box044
-    2300008: Box045
-    2300010: Box229
-    2300012: Box258
-    2300014: Box259
-    2300016: Box260
-    2300018: Box262
-    2300020: Box291
-    2300022: Box292
-    2300024: Box316
-    2300026: Box396
-    2300028: Cylinder007
-    2300030: Cylinder008
-    2300032: Cylinder020
-    2300034: Cylinder021
-    2300036: Cylinder025
-    2300038: Cylinder026
-    2300040: Cylinder027
-    2300042: Cylinder028
-    2300044: Cylinder029
-    2300046: decor 1
-    2300048: decor 2
-    2300050: Mirror
-    2300052: misk 1
-    2300054: misk 2
-    2300056: Plane001
-    2300058: Plane002
-    2300060: Rectangle001
-    2300062: Rectangle006
-    2300064: Rectangle010
-    2300066: Rectangle012
-    2300068: Rectangle039
-    2300070: Rectangle040
-    2300072: Rectangle042
-    2300074: Rectangle044
-    2300076: Rectangle045
-    2300078: Rectangle046
-    2300080: Rectangle047
-    2300082: Rectangle050
-    2300084: Rectangle051
-    2300086: Sphere964
-    2300088: Vasa with roses
-    3300000: Box020
-    3300002: Box042
-    3300004: Box043
-    3300006: Box044
-    3300008: Box045
-    3300010: Box229
-    3300012: Box258
-    3300014: Box259
-    3300016: Box260
-    3300018: Box262
-    3300020: Box291
-    3300022: Box292
-    3300024: Box316
-    3300026: Box396
-    3300028: Cylinder007
-    3300030: Cylinder008
-    3300032: Cylinder020
-    3300034: Cylinder021
-    3300036: Cylinder025
-    3300038: Cylinder026
-    3300040: Cylinder027
-    3300042: Cylinder028
-    3300044: Cylinder029
-    3300046: decor 1
-    3300048: decor 2
-    3300050: Mirror
-    3300052: misk 1
-    3300054: misk 2
-    3300056: Plane001
-    3300058: Plane002
-    3300060: Rectangle001
-    3300062: Rectangle006
-    3300064: Rectangle010
-    3300066: Rectangle012
-    3300068: Rectangle039
-    3300070: Rectangle040
-    3300072: Rectangle042
-    3300074: Rectangle044
-    3300076: Rectangle045
-    3300078: Rectangle046
-    3300080: Rectangle047
-    3300082: Rectangle050
-    3300084: Rectangle051
-    3300086: Sphere964
-    3300088: Vasa with roses
-    4300000: decor 1
-    4300002: decor 2
-    4300004: Mirror
-    4300006: Vasa with roses
-    4300008: misk 1
-    4300010: misk 2
-    4300012: Rectangle044
-    4300014: Cylinder020
-    4300016: Rectangle042
-    4300018: Cylinder021
-    4300020: Rectangle046
-    4300022: Rectangle045
-    4300024: Cylinder025
-    4300026: Cylinder029
-    4300028: Rectangle047
-    4300030: Cylinder028
-    4300032: Cylinder027
-    4300034: Cylinder026
-    4300036: Box229
-    4300038: Box259
-    4300040: Box258
-    4300042: Cylinder007
-    4300044: Rectangle039
-    4300046: Box260
-    4300048: Plane001
-    4300050: Box262
-    4300052: Cylinder008
-    4300054: Box291
-    4300056: Box292
-    4300058: Box316
-    4300060: Plane002
-    4300062: Rectangle040
-    4300064: Sphere964
-    4300066: Rectangle006
-    4300068: Rectangle051
-    4300070: Rectangle050
-    4300072: Rectangle010
-    4300074: Rectangle012
-    4300076: Rectangle001
-    4300078: Box043
-    4300080: Box044
-    4300082: Box045
-    4300084: Box396
-    4300086: Box042
-    4300088: Box020
-    9500000: //RootNode
+  serializedVersion: 19301
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -368,7 +140,7 @@ ModelImporter:
       name: water
     second: {fileID: 2100000, guid: 3beaecc9de397384fae39ed11565cc64, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -400,34 +172,41 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.001
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -437,14 +216,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

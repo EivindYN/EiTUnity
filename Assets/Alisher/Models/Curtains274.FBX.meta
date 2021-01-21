@@ -1,310 +1,8 @@
 fileFormatVersion: 2
 guid: 4c9303413dc2b2646b24dd905b50d20c
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Cylinder001
-    100004: Cylinder002
-    100006: Cylinder010
-    100008: Cylinder011
-    100010: Cylinder014
-    100012: Cylinder015
-    100014: Cylinder016
-    100016: Cylinder017
-    100018: default
-    100020: default 1
-    100022: default001
-    100024: default001 1
-    100026: default002
-    100028: default004
-    100030: default005
-    100032: default006
-    100034: default007
-    100036: default008
-    100038: default009
-    100040: default010
-    100042: default011
-    100044: default012
-    100046: default013
-    100048: Group001
-    100050: Group002
-    100052: Group42606
-    100054: Group42607
-    100056: Group42608
-    100058: Group42609
-    100060: Group42610
-    100062: Group42624
-    100064: Group42625
-    100066: Group42626
-    100068: Group42627
-    100070: Group42628
-    100072: Group42629
-    100074: Group42630
-    100076: Group42639
-    100078: Group42641
-    100080: Group42643
-    100082: Group42646
-    100084: Group42647
-    100086: Group42648
-    100088: Group42649
-    100090: Group42652
-    100092: Line008
-    100094: Line009
-    100096: Line010
-    100098: Line011
-    100100: Line012
-    100102: Line013
-    100104: Line014
-    100106: Line015
-    100108: Line016
-    100110: Line017
-    100112: Line018
-    100114: Line019
-    100116: Line020
-    100118: Line021
-    100120: Line071
-    100122: Line072
-    100124: Line073
-    100126: Loft002
-    100128: Loft003
-    100130: Loft004
-    100132: Sphere006
-    100134: Sphere018
-    100136: Sphere108
-    100138: Sphere109
-    100140: Sphere110
-    100142: Sphere111
-    100144: Sphere112
-    100146: Sphere113
-    400000: //RootNode
-    400002: Cylinder001
-    400004: Cylinder002
-    400006: Cylinder010
-    400008: Cylinder011
-    400010: Cylinder014
-    400012: Cylinder015
-    400014: Cylinder016
-    400016: Cylinder017
-    400018: default
-    400020: default 1
-    400022: default001
-    400024: default001 1
-    400026: default002
-    400028: default004
-    400030: default005
-    400032: default006
-    400034: default007
-    400036: default008
-    400038: default009
-    400040: default010
-    400042: default011
-    400044: default012
-    400046: default013
-    400048: Group001
-    400050: Group002
-    400052: Group42606
-    400054: Group42607
-    400056: Group42608
-    400058: Group42609
-    400060: Group42610
-    400062: Group42624
-    400064: Group42625
-    400066: Group42626
-    400068: Group42627
-    400070: Group42628
-    400072: Group42629
-    400074: Group42630
-    400076: Group42639
-    400078: Group42641
-    400080: Group42643
-    400082: Group42646
-    400084: Group42647
-    400086: Group42648
-    400088: Group42649
-    400090: Group42652
-    400092: Line008
-    400094: Line009
-    400096: Line010
-    400098: Line011
-    400100: Line012
-    400102: Line013
-    400104: Line014
-    400106: Line015
-    400108: Line016
-    400110: Line017
-    400112: Line018
-    400114: Line019
-    400116: Line020
-    400118: Line021
-    400120: Line071
-    400122: Line072
-    400124: Line073
-    400126: Loft002
-    400128: Loft003
-    400130: Loft004
-    400132: Sphere006
-    400134: Sphere018
-    400136: Sphere108
-    400138: Sphere109
-    400140: Sphere110
-    400142: Sphere111
-    400144: Sphere112
-    400146: Sphere113
-    2300000: Cylinder001
-    2300002: Cylinder002
-    2300004: Cylinder010
-    2300006: Cylinder011
-    2300008: Cylinder014
-    2300010: Cylinder015
-    2300012: Cylinder016
-    2300014: Cylinder017
-    2300016: default
-    2300018: default 1
-    2300020: default001
-    2300022: default001 1
-    2300024: default002
-    2300026: default004
-    2300028: default005
-    2300030: default006
-    2300032: default007
-    2300034: default008
-    2300036: default009
-    2300038: default010
-    2300040: default011
-    2300042: default012
-    2300044: default013
-    2300046: Line008
-    2300048: Line009
-    2300050: Line010
-    2300052: Line011
-    2300054: Line012
-    2300056: Line013
-    2300058: Line014
-    2300060: Line015
-    2300062: Line016
-    2300064: Line017
-    2300066: Line018
-    2300068: Line019
-    2300070: Line020
-    2300072: Line021
-    2300074: Line071
-    2300076: Line072
-    2300078: Line073
-    2300080: Loft002
-    2300082: Loft003
-    2300084: Loft004
-    2300086: Sphere006
-    2300088: Sphere018
-    2300090: Sphere108
-    2300092: Sphere109
-    2300094: Sphere110
-    2300096: Sphere111
-    2300098: Sphere112
-    2300100: Sphere113
-    3300000: Cylinder001
-    3300002: Cylinder002
-    3300004: Cylinder010
-    3300006: Cylinder011
-    3300008: Cylinder014
-    3300010: Cylinder015
-    3300012: Cylinder016
-    3300014: Cylinder017
-    3300016: default
-    3300018: default 1
-    3300020: default001
-    3300022: default001 1
-    3300024: default002
-    3300026: default004
-    3300028: default005
-    3300030: default006
-    3300032: default007
-    3300034: default008
-    3300036: default009
-    3300038: default010
-    3300040: default011
-    3300042: default012
-    3300044: default013
-    3300046: Line008
-    3300048: Line009
-    3300050: Line010
-    3300052: Line011
-    3300054: Line012
-    3300056: Line013
-    3300058: Line014
-    3300060: Line015
-    3300062: Line016
-    3300064: Line017
-    3300066: Line018
-    3300068: Line019
-    3300070: Line020
-    3300072: Line021
-    3300074: Line071
-    3300076: Line072
-    3300078: Line073
-    3300080: Loft002
-    3300082: Loft003
-    3300084: Loft004
-    3300086: Sphere006
-    3300088: Sphere018
-    3300090: Sphere108
-    3300092: Sphere109
-    3300094: Sphere110
-    3300096: Sphere111
-    3300098: Sphere112
-    3300100: Sphere113
-    4300000: default006
-    4300002: default012
-    4300004: default013
-    4300006: default008
-    4300008: default007
-    4300010: default009
-    4300012: default002
-    4300014: default
-    4300016: default004
-    4300018: default001
-    4300020: Cylinder017
-    4300022: Cylinder001
-    4300024: Cylinder002
-    4300026: Line008
-    4300028: Line009
-    4300030: Line010
-    4300032: Line011
-    4300034: Line012
-    4300036: Line013
-    4300038: Line014
-    4300040: Sphere006
-    4300042: Cylinder010
-    4300044: Cylinder011
-    4300046: Cylinder016
-    4300048: Line021
-    4300050: Line015
-    4300052: Line016
-    4300054: Line017
-    4300056: Line018
-    4300058: Line019
-    4300060: Line020
-    4300062: Sphere018
-    4300064: Cylinder014
-    4300066: Cylinder015
-    4300068: default005
-    4300070: Loft004
-    4300072: Sphere112
-    4300074: Sphere113
-    4300076: Line073
-    4300078: default001
-    4300080: default
-    4300082: default010
-    4300084: default011
-    4300086: Line071
-    4300088: Loft002
-    4300090: Sphere108
-    4300092: Sphere109
-    4300094: Line072
-    4300096: Loft003
-    4300098: Sphere110
-    4300100: Sphere111
-    9500000: //RootNode
+  serializedVersion: 19301
+  internalIDToNameTable: []
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -322,7 +20,7 @@ ModelImporter:
       name: curtain7_metal
     second: {fileID: 2100000, guid: 7eaa7778ee0787c4b905e8f318bdcd22, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -354,34 +52,41 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.001
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -391,14 +96,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
