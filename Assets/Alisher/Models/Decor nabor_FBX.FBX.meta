@@ -3,7 +3,142 @@ guid: 27948012c773fe5469bc2dcaa38c0b61
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 08 - Default
+    second: {fileID: 2100000, guid: 5f6e63463c5632241a2cc706ac09be7e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 13 - Default
+    second: {fileID: 2100000, guid: e1006c302d0e2454b88e5c12611e4853, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_proz
+    second: {fileID: 2100000, guid: 7adc31b08e9be484f9277dd6d6e1c55e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold for clock
+    second: {fileID: 2100000, guid: 3c22d678c734258499cd8418d74f4665, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold_brashed
+    second: {fileID: 2100000, guid: 285dd625bd2195549bcb302d434148e5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold_brashed_1
+    second: {fileID: 2100000, guid: 8421c143ee086ce41b79fd3757bcaa6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold_for _miror
+    second: {fileID: 2100000, guid: 6b0d6b30ba44e524faf4a22638b9bdad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gold_polished
+    second: {fileID: 2100000, guid: 3fae9efc74f7f9d43a46bc897fcad355, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Karton black
+    second: {fileID: 2100000, guid: b7450c93281065d4e9575114c99f1044, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Medi_polished_
+    second: {fileID: 2100000, guid: eaf0e541348998947b1a14fcb1b64303, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metall_frame 1
+    second: {fileID: 2100000, guid: 4db05825e8eaf074fabd890a5d22ad9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nikel_polished
+    second: {fileID: 2100000, guid: ef31228e762954e468a4d5212360c99d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ceramika
+    second: {fileID: 2100000, guid: fa76c48a2371bf94e85358b53eeeb6d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: fetil
+    second: {fileID: 2100000, guid: 8f5413fe11a08fd488b3a9cdaa0b3799, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: foto 1
+    second: {fileID: 2100000, guid: 178ec7774d04b594b9577953572afb16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: foto 2
+    second: {fileID: 2100000, guid: c5638e0c165069f4f9e6a90b6c46a027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leathe bej
+    second: {fileID: 2100000, guid: 74fddf811f5a934418f464177d665231, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leathe grey
+    second: {fileID: 2100000, guid: 8e26eb20790c98c4f92d0741ec9d9d25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mirror
+    second: {fileID: 2100000, guid: 00cd9138db6195a4586f71990bf25abd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mirror old
+    second: {fileID: 2100000, guid: fea02fb2febd0bf4fabedf541ceab307, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pear_1
+    second: {fileID: 2100000, guid: 29086fa6023e53d42a6b918e34d8f8e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: plafon
+    second: {fileID: 2100000, guid: c2c37dedefe548343a791b6379d4bc02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rosa_lepestok
+    second: {fileID: 2100000, guid: 4183d7177411925428060b87ea92bbe2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rose_2
+    second: {fileID: 2100000, guid: 8f2fa26591f3a204291fdfe4d884a96b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rose_3
+    second: {fileID: 2100000, guid: 799d6733a2fe1784b889f1b6310c6ee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vosk
+    second: {fileID: 2100000, guid: 1cdabdfdcbccd264ea3b15d590fbe8fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: water
+    second: {fileID: 2100000, guid: 3beaecc9de397384fae39ed11565cc64, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

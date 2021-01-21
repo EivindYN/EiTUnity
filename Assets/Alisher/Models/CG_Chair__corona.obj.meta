@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 32a32cffa7c21e94cb1c146741cf4d87
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_001Mat
+    second: {fileID: 2100000, guid: bf05f6251d64a494a91044bbde7336bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_003Mat
+    second: {fileID: 2100000, guid: c32fb8a7a0768be4f9e8d3e9ca041285, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_006Mat
+    second: {fileID: 2100000, guid: 34bbc5698f9a31a4c972c22ad793b409, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_007Mat
+    second: {fileID: 2100000, guid: 8e1abc66773af5840a1fbb962252ab80, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_010Mat
+    second: {fileID: 2100000, guid: d4dd283ea7b08b346953c9bd582e4246, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_011Mat
+    second: {fileID: 2100000, guid: 734a3d8623ebbfe4cab2f91d2cfa6ccb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_013Mat
+    second: {fileID: 2100000, guid: 79d472c1d3bb1e54c885657080f8173a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_014Mat
+    second: {fileID: 2100000, guid: 4c7bb6c9c7bfcea4aa79792ad892b679, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_015Mat
+    second: {fileID: 2100000, guid: bda6a6a41ada5e545b90b7b3ef9f3304, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_017Mat
+    second: {fileID: 2100000, guid: 9efe22f0d51d1314a850959c12c39960, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_018Mat
+    second: {fileID: 2100000, guid: dfdc976a39b044547bd2c1595ec23c82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_019Mat
+    second: {fileID: 2100000, guid: 234c4831030f0b444b78855aa87d730c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_020Mat
+    second: {fileID: 2100000, guid: 6df0b6eec77e1d94590d01a1e779d886, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_021Mat
+    second: {fileID: 2100000, guid: 1c1d289906416384a8dd70872569f84f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_022Mat
+    second: {fileID: 2100000, guid: 391332f31b384de4bb87efff3cb35f1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_023Mat
+    second: {fileID: 2100000, guid: ecbaa54521a0c144cacfef9354733184, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_024Mat
+    second: {fileID: 2100000, guid: ba5831197ec63394a83b832a5df6839d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_025Mat
+    second: {fileID: 2100000, guid: 1e1c474b9c02c66489949e3a3e6704c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_026Mat
+    second: {fileID: 2100000, guid: f67dd4727d400ff4e8b0dd886e33516b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_027Mat
+    second: {fileID: 2100000, guid: 46a686333c8c8d44382c8230bc2952f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_029Mat
+    second: {fileID: 2100000, guid: c555b44407a5ee0498d1064544dc6003, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_030Mat
+    second: {fileID: 2100000, guid: 876bf49b95d4e67439197c0cbbb4599e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_031Mat
+    second: {fileID: 2100000, guid: b94d7f8906fc1e1418f90a1e3aca8108, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_033Mat
+    second: {fileID: 2100000, guid: f6c8487de3f7de54293cadea5453d47a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_034Mat
+    second: {fileID: 2100000, guid: df9f924676b879d4e9b4c2659c0ae541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_035Mat
+    second: {fileID: 2100000, guid: 0f7bdd0f113e43249a2597cfc059d826, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_036Mat
+    second: {fileID: 2100000, guid: 869443ff4e5e4374a9813d0c7bee2f10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_037Mat
+    second: {fileID: 2100000, guid: 55cfe22f844988341a343e5dc140d89a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_038Mat
+    second: {fileID: 2100000, guid: b06ad6d00261b564d811405059955795, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_039Mat
+    second: {fileID: 2100000, guid: 52b69060bf8ed8543ad3795f6f7bffb2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_040Mat
+    second: {fileID: 2100000, guid: 23024bba99cacf943bbb9ab6c6da4e3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_041Mat
+    second: {fileID: 2100000, guid: 6d90e9d50dc4b784bb7aef4ecf7f4095, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_042Mat
+    second: {fileID: 2100000, guid: 1d609dcb3e616244c9d911371ab011b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_043Mat
+    second: {fileID: 2100000, guid: 1394b0404cbb89f43b79353a2e620175, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_045Mat
+    second: {fileID: 2100000, guid: 55f3f0425ed72af44abc6c912a8747d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_046Mat
+    second: {fileID: 2100000, guid: b3ca53e2557da1f438fd9bd80959a542, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_047Mat
+    second: {fileID: 2100000, guid: b412e7f657b5550489c41cb08be92526, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_049Mat
+    second: {fileID: 2100000, guid: 1d5b30fe0b9129a41850db77b071e73e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_050Mat
+    second: {fileID: 2100000, guid: e832c75821bf48844a40c6536cb7021d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_051Mat
+    second: {fileID: 2100000, guid: 0ad3b151ef557ef438702c1a3bf24906, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_052Mat
+    second: {fileID: 2100000, guid: f3c531fa590e9c9409ee39bee9f186dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_053Mat
+    second: {fileID: 2100000, guid: 07cbd7e57690eb44c8020bd92ee2263a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_054Mat
+    second: {fileID: 2100000, guid: 1154b5ce0e2c7144da2ecb171896b72c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_055Mat
+    second: {fileID: 2100000, guid: 6796abbbe092fd446917270f6d3c946b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_056Mat
+    second: {fileID: 2100000, guid: 39ad97bd3aeae1c47b38b18e034a5249, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_057Mat
+    second: {fileID: 2100000, guid: 198ca7b3ad5fccc448bad84cf460793d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_058Mat
+    second: {fileID: 2100000, guid: dabe91eb73d2296438fdcc2315b8bf27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_059Mat
+    second: {fileID: 2100000, guid: 41cf0211f6941984683bc3d0af4e6465, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_061Mat
+    second: {fileID: 2100000, guid: 408515b3fda46af4693cc0f9c718a5c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_062Mat
+    second: {fileID: 2100000, guid: 8f8337b56ffcccf44be11a78e882af21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_063Mat
+    second: {fileID: 2100000, guid: 6d99b84ebcb30b545a6199b507cd0292, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_065Mat
+    second: {fileID: 2100000, guid: 1aacf42f59b1cf54c98bd1a922cb0b09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_066Mat
+    second: {fileID: 2100000, guid: a270527d6b7e9ae42a2b7e304523fd2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_067Mat
+    second: {fileID: 2100000, guid: cfd3ec0177fdaa346b9915548dc64f81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_068Mat
+    second: {fileID: 2100000, guid: f9cf7a7e2478c404080165f275275242, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_069Mat
+    second: {fileID: 2100000, guid: 4711cbb146a56ad43983b93932f6fe6b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_070Mat
+    second: {fileID: 2100000, guid: 0f8b929c6b3c8794286f3683a1d02fea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_071Mat
+    second: {fileID: 2100000, guid: eee7bfd5eeb6a1f4084d43467495ed20, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_072Mat
+    second: {fileID: 2100000, guid: 3a5dece979a92884190ba9129fe26b95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_073Mat
+    second: {fileID: 2100000, guid: ac70623fa3346ac4d9f14f7d8963f309, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_074Mat
+    second: {fileID: 2100000, guid: 3a55d341a5ef99541a919bd41e709f83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_075Mat
+    second: {fileID: 2100000, guid: ca775a5da0d31c24a897a7d41732fb97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_077Mat
+    second: {fileID: 2100000, guid: 33aa9f646c393654eb3eab9a4d17181c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_078Mat
+    second: {fileID: 2100000, guid: 84f1b4e0a9b1c504f923cd3285fd77f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_079Mat
+    second: {fileID: 2100000, guid: b28d7a07e39661a4589f2df533f1b451, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_081Mat
+    second: {fileID: 2100000, guid: a5a4c767da91ed948930d4cbfb068259, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_082Mat
+    second: {fileID: 2100000, guid: b886216384d4c5f49ac99e0e46639bfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_083Mat
+    second: {fileID: 2100000, guid: fbfec2102cc077e4cbf97dded2d1aa1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_084Mat
+    second: {fileID: 2100000, guid: d99e73832ff2dee4494033f1ad374f5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_085Mat
+    second: {fileID: 2100000, guid: c640c4e1e641fa84aaf1930985ec82bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_086Mat
+    second: {fileID: 2100000, guid: a110e1e4226c25c43a22e20e988c9cdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_087Mat
+    second: {fileID: 2100000, guid: d3afb5f45e175ff488ceddb35f49adda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_088Mat
+    second: {fileID: 2100000, guid: 0a5c2af25591e5c43a55b84d033bfc3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_089Mat
+    second: {fileID: 2100000, guid: 8b9f6a716d45fa2488e1632dde21e267, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_090Mat
+    second: {fileID: 2100000, guid: 82e29f77a4840404d9a5c018e279495f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_091Mat
+    second: {fileID: 2100000, guid: c5ec910bff2896e458f2505ee7265d1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_093Mat
+    second: {fileID: 2100000, guid: d2cf3128981f434488c605f56f4e81c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_094Mat
+    second: {fileID: 2100000, guid: b407d3508e4c30543b0e34dce94ad3ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_097Mat
+    second: {fileID: 2100000, guid: 38cd3109371b3b543a851b5e04b4708d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_098Mat
+    second: {fileID: 2100000, guid: 36ebe4ac52f7cd048a48ab7900a6eb95, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_100Mat
+    second: {fileID: 2100000, guid: b15f5987342bae5419be23f70c49a9ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CG_Chair_101Mat
+    second: {fileID: 2100000, guid: 7f8e4d96ae142c8409cb74c585def080, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
