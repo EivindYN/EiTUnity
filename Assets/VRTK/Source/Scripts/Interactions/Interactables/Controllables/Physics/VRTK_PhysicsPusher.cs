@@ -69,6 +69,14 @@ namespace VRTK.Controllables.PhysicsBased
         }
 
         /// <summary>
+        /// The SetValue method is not implemented as the pusher resets automatically.
+        /// </summary>
+        /// <param name="value">Not used.</param>
+        public override void SetValue(float value)
+        {
+        }
+
+        /// <summary>
         /// The IsResting method returns whether the pusher is currently at it's resting position.
         /// </summary>
         /// <returns>Returns `true` if the pusher is currently at the resting position.</returns>
@@ -140,7 +148,11 @@ namespace VRTK.Controllables.PhysicsBased
         protected override void ConfigueRigidbody()
         {
             SetRigidbodyGravity(false);
+#if UNITY_2018_3_OR_NEWER
+            SetRigidbodyCollisionDetectionMode(CollisionDetectionMode.ContinuousSpeculative);
+#else
             SetRigidbodyCollisionDetectionMode(CollisionDetectionMode.ContinuousDynamic);
+#endif
             SetRigidbodyConstraints(RigidbodyConstraints.FreezeRotation);
         }
 

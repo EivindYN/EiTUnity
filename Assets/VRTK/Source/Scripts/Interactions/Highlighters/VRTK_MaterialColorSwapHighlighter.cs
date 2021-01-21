@@ -160,7 +160,7 @@ namespace VRTK.Highlighters
 
                     if (resetMainTexture && material.HasProperty("_MainTex"))
                     {
-                        renderer.material.SetTexture("_MainTex", new Texture2D(64,64));
+                        renderer.material.SetTexture("_MainTex", Texture2D.whiteTexture);
                     }
 
                     if (material.HasProperty("_Color"))
