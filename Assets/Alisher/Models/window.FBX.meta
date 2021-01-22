@@ -6,7 +6,67 @@ ModelImporter:
   - first:
       74: 1827226128182048838
     second: Take 001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blue
+    second: {fileID: 2100000, guid: d7249ef1ec204e744bb2f4fb48575c11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GLASS__Architectural__Window (Interior_Exterior)
+    second: {fileID: 2100000, guid: 4732047be05a3db45b9ceab1fa7feb75, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Patina
+    second: {fileID: 2100000, guid: 0d2f6ea3f38cc5a469a4ea15e162d778, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Red
+    second: {fileID: 2100000, guid: 502b1d2f342e8514389e111168e1565a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: White
+    second: {fileID: 2100000, guid: a45486de473962f46a27be50de43263e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow
+    second: {fileID: 2100000, guid: 33bfff7816207d144b701bf39755aee3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knigi
+    second: {fileID: 2100000, guid: 8a8c9045bb5bf8f43ac6cbcb755a1706, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knigi01
+    second: {fileID: 2100000, guid: 95bd7e483d0072249b68ce0fab2abd1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knigi02
+    second: {fileID: 2100000, guid: c044879de80bd62488eea24d04da1d07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knigi03
+    second: {fileID: 2100000, guid: 47caf50a6e08ae349a20b7d66566a29c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: knigi04
+    second: {fileID: 2100000, guid: 81f8484106b7b6343961d6ed78baa14b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: rama
+    second: {fileID: 2100000, guid: e7ad1e761ccdfd740b1b1489475710cd, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
