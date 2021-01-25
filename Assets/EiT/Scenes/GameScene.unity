@@ -4735,7 +4735,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &331838575
 Transform:
   m_ObjectHideFlags: 0
@@ -22904,6 +22904,7 @@ MonoBehaviour:
   doorExit: {fileID: 962175649}
   doorGarage: {fileID: 961655184}
   doorBasement: {fileID: 125023247}
+  siblingDoor: {fileID: 331838574}
   player: {fileID: 1610681865}
   pos: 1
 --- !u!114 &1321502495
@@ -40971,7 +40972,7 @@ PrefabInstance:
     - target: {fileID: 7957032683359645656, guid: ff606e6d8e7f93e46a93d20d700a0b0d,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7957032683359645656, guid: ff606e6d8e7f93e46a93d20d700a0b0d,
         type: 3}
