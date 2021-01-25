@@ -8,7 +8,7 @@ public class RadialMenuText : MonoBehaviour
 
     public List<string> optionsText;
     bool done = false;
-
+    public OptionScript optionScript;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,5 +28,10 @@ public class RadialMenuText : MonoBehaviour
             textChild.GetComponent<Text>().text = optionsText[i]; 
             textChild.GetComponent<RectTransform>().localRotation = Quaternion.Euler(0, 0, 90 - i * 360f / optionsText.Count); 
         } 
+    }
+
+    public void PickOption(int option) {
+        Debug.Log("Picked option " + option);
+        optionScript.HandleOption(option, optionsText[option],gameObject.transform.parent.parent.parent.parent.gameObject);
     }
 }

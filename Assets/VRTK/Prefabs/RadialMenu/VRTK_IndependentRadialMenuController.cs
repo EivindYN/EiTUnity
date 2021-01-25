@@ -47,6 +47,7 @@ namespace VRTK
         protected bool waitingToDisableCollider = false;
         protected int counter = 2;
         protected bool firstClickDone = false;
+        public bool lockOption = false;
 
         /// <summary>
         /// The UpdateEventsManager method is used to update the events within the menu controller.
@@ -204,12 +205,13 @@ namespace VRTK
                     float distance = (Camera.main.transform.position - transform.position).magnitude;
                     Vector3 rayEnd = Camera.main.transform.position + Camera.main.transform.forward * distance;
                     DoChangeAngle(CalculateAngle(rayEnd), this);
-                    if ((rayEnd - transform.position).magnitude > 0.5f) { ////
+                    if ((rayEnd - transform.position).magnitude > 0.75f) { ////
                         DoHideMenu(true);
                     }
                 }
                 if (Input.GetKeyDown(KeyCode.Mouse0) && firstClickDone) {////
                     DoClickButton();
+                    lockOption = true;
                     DoHideMenu(true);
                 }
                 firstClickDone = true;
@@ -219,6 +221,11 @@ namespace VRTK
                     transform.rotation = Quaternion.LookRotation((rotateTowards.transform.position - transform.position) * -1, Vector3.up) * initialRotation; // Face the target, but maintain initial rotation
                 }
             } else {
+                if (lockOption) {
+                    DoUnClickButton();
+                    DoHideMenu(true);
+                    lockOption = false;
+                }
                 firstClickDone = false; ////
             }
         }

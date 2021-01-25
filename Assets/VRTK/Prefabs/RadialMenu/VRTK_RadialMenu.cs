@@ -101,6 +101,8 @@ namespace VRTK
         protected int currentPress = -1;
         protected Coroutine tweenMenuScaleRoutine;
 
+        protected int lockedOption;
+
         /// <summary>
         /// The HoverButton method is used to set the button hover at a given angle.
         /// </summary>
@@ -348,6 +350,16 @@ namespace VRTK
                 //No button selected. Use -1 to represent this
                 buttonID = -1;
             }
+            if (GetComponent<VRTK_IndependentRadialMenuController>().lockOption) {
+                if (lockedOption == -1) {
+                    GetComponent<RadialMenuText>().PickOption(buttonID);
+                    lockedOption = buttonID;
+                }
+            } else {
+                lockedOption = -1;   
+            }
+            if (lockedOption != -1)
+                buttonID = lockedOption;
 
             //If we changed buttons while moving, un-hover and un-click the last button we were on
             if (currentHover != buttonID && currentHover != -1)
