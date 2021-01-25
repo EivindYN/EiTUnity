@@ -213,6 +213,7 @@ namespace VRTK
                     DoClickButton();
                     lockOption = true;
                     GetComponent<RadialMenuText>().PickOption(GetComponent<VRTK_RadialMenu>().optionHovered);
+                    DoHideMenu(true);
                 }
                 firstClickDone = true;
 
