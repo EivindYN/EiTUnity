@@ -46,6 +46,7 @@ namespace VRTK
         protected bool isClicked = false;
         protected bool waitingToDisableCollider = false;
         protected int counter = 2;
+        protected bool firstClickDone = false;
 
         /// <summary>
         /// The UpdateEventsManager method is used to update the events within the menu controller.
@@ -200,13 +201,25 @@ namespace VRTK
             {
                 if (interactingObjects.Count > 0) // There's not really an event for the controller moving, so just update the position every frame
                 {
-                    DoChangeAngle(CalculateAngle(interactingObjects[0]), this);
+                    float distance = (Camera.main.transform.position - transform.position).magnitude;
+                    Vector3 rayEnd = Camera.main.transform.position + Camera.main.transform.forward * distance;
+                    DoChangeAngle(CalculateAngle(rayEnd), this);
+                    if ((rayEnd - transform.position).magnitude > 0.5f) { ////
+                        DoHideMenu(true);
+                    }
                 }
+                if (Input.GetKeyDown(KeyCode.Mouse0) && firstClickDone) {////
+                    DoClickButton();
+                    DoHideMenu(true);
+                }
+                firstClickDone = true;
 
                 if (rotateTowards != null)
                 {
                     transform.rotation = Quaternion.LookRotation((rotateTowards.transform.position - transform.position) * -1, Vector3.up) * initialRotation; // Face the target, but maintain initial rotation
                 }
+            } else {
+                firstClickDone = false; ////
             }
         }
 
@@ -288,10 +301,12 @@ namespace VRTK
             }
         }
 
-        protected virtual TouchAngleDeflection CalculateAngle(GameObject interactingObject)
+        protected virtual TouchAngleDeflection CalculateAngle(GameObject interactingObject)////
         {
-            Vector3 controllerPosition = interactingObject.transform.position;
+            return CalculateAngle(interactingObject.transform.position);
+        }
 
+        protected virtual TouchAngleDeflection CalculateAngle(Vector3 controllerPosition) {////
             Vector3 toController = controllerPosition - transform.position;
             Vector3 projection = transform.position + Vector3.ProjectOnPlane(toController, transform.forward);
 
@@ -299,8 +314,7 @@ namespace VRTK
             angle = AngleSigned(transform.right * -1, projection - transform.position, transform.forward);
 
             // Ensure angle is positive
-            if (angle < 0)
-            {
+            if (angle < 0) {
                 angle += 360.0f;
             }
 

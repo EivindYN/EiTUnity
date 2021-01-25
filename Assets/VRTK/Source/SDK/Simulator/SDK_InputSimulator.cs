@@ -211,7 +211,7 @@
             }
             rightHand.gameObject.SetActive(true);
             leftHand.gameObject.SetActive(true);
-            crossHairPanel.SetActive(false);
+            crossHairPanel.SetActive(true);////
         }
 
         protected virtual void OnDestroy()
@@ -285,11 +285,11 @@
             else
             {
                 UpdateRotation();
-                if (Input.GetKeyDown(distancePickupRight) && Input.GetKey(distancePickupModifier))
+                if (Input.GetKeyDown(distancePickupRight))////
                 {
                     TryPickup(true);
                 }
-                else if (Input.GetKeyDown(distancePickupLeft) && Input.GetKey(distancePickupModifier))
+                else if (Input.GetKeyDown(distancePickupLeft))////
                 {
                     TryPickup(false);
                 }
@@ -300,14 +300,6 @@
                 else
                 {
                     sprintMultiplier = 1;
-                }
-                if (Input.GetKeyDown(distancePickupModifier))
-                {
-                    crossHairPanel.SetActive(true);
-                }
-                else if (Input.GetKeyUp(distancePickupModifier))
-                {
-                    crossHairPanel.SetActive(false);
                 }
             }
 
