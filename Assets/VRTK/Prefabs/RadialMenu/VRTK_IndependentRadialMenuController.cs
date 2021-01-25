@@ -212,7 +212,7 @@ namespace VRTK
                 if (Input.GetKeyDown(KeyCode.Mouse0) && firstClickDone) {////
                     DoClickButton();
                     lockOption = true;
-                    DoHideMenu(true);
+                    GetComponent<RadialMenuText>().PickOption(GetComponent<VRTK_RadialMenu>().optionHovered);
                 }
                 firstClickDone = true;
 

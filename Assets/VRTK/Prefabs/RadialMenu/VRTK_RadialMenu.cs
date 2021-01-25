@@ -102,6 +102,7 @@ namespace VRTK
         protected Coroutine tweenMenuScaleRoutine;
 
         protected int lockedOption;
+        public int optionHovered;
 
         /// <summary>
         /// The HoverButton method is used to set the button hover at a given angle.
@@ -352,7 +353,6 @@ namespace VRTK
             }
             if (GetComponent<VRTK_IndependentRadialMenuController>().lockOption) {
                 if (lockedOption == -1) {
-                    GetComponent<RadialMenuText>().PickOption(buttonID);
                     lockedOption = buttonID;
                 }
             } else {
@@ -360,6 +360,7 @@ namespace VRTK
             }
             if (lockedOption != -1)
                 buttonID = lockedOption;
+            optionHovered = buttonID;
 
             //If we changed buttons while moving, un-hover and un-click the last button we were on
             if (currentHover != buttonID && currentHover != -1)
