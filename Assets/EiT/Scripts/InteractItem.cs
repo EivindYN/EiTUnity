@@ -14,6 +14,7 @@ public class InteractItem : MonoBehaviour
     public GameObject doorExit;
     public GameObject doorGarage;
     public GameObject doorBasement;
+    public GameObject siblingDoor;
     
 
     public GameObject player;
@@ -26,6 +27,7 @@ public class InteractItem : MonoBehaviour
             GetComponent<PickUpItem>().AddToDo("Move to corridor");
             pos = 2;
             player.transform.position = positions.transform.GetChild(pos).transform.position;
+            siblingDoor.SetActive(true);
         }
         if (item == stairs) {
             GetComponent<PickUpItem>().AddToDo("Move to living room");
