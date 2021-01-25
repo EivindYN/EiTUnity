@@ -21,7 +21,11 @@ public class PickUpItem : MonoBehaviour
     }
 
     public void AddToDo(string txt) {
-        Debug.Log("ADDTODO: " + txt);
-        items.Add(txt);
+        if (!items.Contains(txt)) {
+            Debug.Log("ADDTODO: " + txt);
+            items.Add(txt);
+        } else {
+            Debug.Log("Tried ADDTODO: " + txt);
+        }
     }
 }
