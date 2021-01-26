@@ -29,6 +29,6 @@ public class TutorialDoor : OptionScript
     }
     IEnumerator PlayGame() {
         yield return new WaitForSeconds(5f);
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("StoryScene");
     }
 }

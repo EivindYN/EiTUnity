@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/EiT/Scenes/TutorialScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/EiT/Scenes/StoryScene.unity
+    guid: fb36fe4b91f5a924295de3abf4f9b2da
+  - enabled: 1
     path: Assets/EiT/Scenes/GameScene.unity
     guid: 4cb6dbac309b3124c93b7b058d69148d
   - enabled: 1
