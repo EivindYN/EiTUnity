@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
 {
     public string sceneName;
+    public bool resetItems;
     public bool escToQuit;
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,8 @@ public class SceneController : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space)) {
+            if (resetItems)
+                PickUpItem.items = new List<string>();
             SceneManager.LoadScene(sceneName);
         }
         if (escToQuit) {
