@@ -7,6 +7,7 @@ public class StartAnimationScript : MonoBehaviour
     public GameObject playerCam;
     public List<GameObject> posList;
     public GameObject VRTK;
+    public GameObject interractWindow;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class StartAnimationScript : MonoBehaviour
             yield return new WaitForSeconds(0.5f);
         }
         VRTK.SetActive(true);
+        interractWindow.SetActive(true);
         Destroy(gameObject);
     }
     IEnumerator Move(GameObject pos, float timeMax) {
